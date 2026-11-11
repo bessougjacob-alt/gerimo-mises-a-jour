@@ -1,0 +1,371 @@
+{
+ "version": "1.190",
+ "numero": 190,
+ "date": "11/11/2026",
+ "versions": [
+  {
+   "version": "1.190",
+   "date": "11/11/2026",
+   "elements": [
+    {
+     "titre": "Propriétaires portant le même nom",
+     "apport": "Quand vous créez un propriétaire dont le nom existe déjà, Gérimo vous demande s'il s'agit de la même personne. Si ce n'est pas le cas, son téléphone (ou sa CNI) le distingue de l'autre dans toutes les listes. La reprise de données ne mélange plus jamais deux personnes du même nom."
+    },
+    {
+     "titre": "Fusionner deux fiches de propriétaire",
+     "apport": "Une même personne enregistrée deux fois ? Le bouton « Fusionner » de la liste des propriétaires regroupe ses biens, mandats, RIB, reversements et pièces jointes sur une seule fiche (Admin, avec son mot de passe)."
+    }
+   ],
+   "numero": 190
+  },
+  {
+   "version": "1.187",
+   "numero": 187,
+   "date": "11/11/2026",
+   "elements": [
+    {
+     "titre": "Bandeau « Bonjour » plus calme",
+     "apport": "Le bandeau « Bonjour » de l'accueil ne fait plus défiler que les notifications les plus récentes, à vitesse lente et régulière. Leur nombre se règle dans Paramètres → Réglages → « Bandeau Bonjour de l'accueil » (15 par défaut). La cloche et Gérimo gardent toutes les notifications."
+    }
+   ]
+  },
+  {
+   "version": "1.185",
+   "numero": 185,
+   "date": "11/11/2026",
+   "elements": [
+    {
+     "titre": "Gérimo dans la barre de droite",
+     "apport": "Le bouton rond de Gérimo, votre assistant, qui flottait en bas à droite de l'écran, est maintenant rangé dans la barre de droite, juste sous le bouton de déconnexion, avec une nouvelle icône (un petit robot dans une bulle) qui ne bouge plus : il ne cache plus rien sur la page."
+    },
+    {
+     "titre": "Modules principaux plus larges",
+     "apport": "Sur l'accueil, les 8 modules principaux s'affichent en deux rangées de 4 cartes plus larges."
+    },
+    {
+     "titre": "Type de logement « À préciser »",
+     "apport": "À la reprise de données, un logement dont on ne connaît pas encore le type (studio, 2 pièces…) peut être importé en « À préciser ». Vous le corrigez plus tard sur la fiche du logement, quand vous avez l'information."
+    },
+    {
+     "titre": "Nouveau contrat de bail",
+     "apport": "Le contrat de bail imprimé reprend le modèle utilisé par les agences : votre logo de part et d'autre du titre encadré, 18 articles (désignation, durée, loyer, dépôt de garantie, avance, résiliation…) et les signatures « Pour le bailleur / Pour le preneur ». La pénalité de retard n'y figure que si elle est activée dans Paramètres, la caution et l'avance seulement si le contrat en prévoit. Les téléphones du gérant, à saisir dans Paramètres → Mon entreprise, s'impriment sous sa signature."
+    }
+   ]
+  },
+  {
+   "version": "1.177",
+   "numero": 177,
+   "date": "10/11/2026",
+   "elements": [
+    {
+     "titre": "Versement partiel sur un loyer",
+     "apport": "Quand un locataire en retard ne peut pas tout payer, cochez « Versement partiel » à l'encaissement et saisissez ce qu'il verse. Gérimo solde d'abord les mois les plus anciens et garde le reste à payer sur le mois suivant : le reçu l'indique, et les impayés ne comptent plus que ce qui reste réellement dû. La quittance est délivrée quand le mois est entièrement payé."
+    },
+    {
+     "titre": "Reprise des locataires déjà en place",
+     "apport": "À la reprise de données, un locataire déjà en place peut garder sa vraie date d'entrée tout en étant suivi par Gérimo à partir d'un mois choisi : seuls son arriéré et les mois suivants sont comptés comme dus."
+    }
+   ]
+  },
+  {
+   "version": "1.171",
+   "numero": 171,
+   "date": "09/11/2026",
+   "elements": [
+    {
+     "titre": "Première installation du serveur corrigée",
+     "apport": "Sur un PC neuf, Gérimo Serveur pouvait s'arrêter au premier lancement avec le message « La base de données n'a pas pu être préparée » alors que le mot de passe était bon. Il démarre maintenant normalement dès la première fois."
+    },
+    {
+     "titre": "Correction à l'installation",
+     "apport": ""
+    }
+   ]
+  },
+  {
+   "version": "1.169",
+   "numero": 169,
+   "date": "08/11/2026",
+   "elements": [
+    {
+     "titre": "Amélioration de l'affichage android",
+     "apport": ""
+    }
+   ]
+  },
+  {
+   "version": "1.167",
+   "numero": 167,
+   "date": "08/11/2026",
+   "elements": [
+    {
+     "titre": "Paramètres façon Windows",
+     "apport": "Les Paramètres s'ouvrent maintenant avec une colonne à gauche, chaque rubrique ayant son icône fine, et un grand titre au-dessus de la rubrique ouverte, comme dans les Paramètres de Windows."
+    },
+    {
+     "titre": "Accueil plus aéré",
+     "apport": "Le bandeau « Bonjour » en haut de l'accueil est plus fin : les modules principaux apparaissent plus haut dans l'écran."
+    },
+    {
+     "titre": "Une seule pastille de notifications",
+     "apport": "Le nombre de choses à faire ne s'affiche plus sur le bouton Gérimo, seulement sur la cloche de notification."
+    },
+    {
+     "titre": "Accueil : plus de place pour les modules",
+     "apport": "Les cadres État des lieux, Agenda et Gérimo sont plus petits et commencent à la hauteur des modules ; les modules et le tableau de bord gagnent de la place."
+    },
+    {
+     "titre": "Barre de droite réorganisée",
+     "apport": "En haut de la barre d'icônes de droite : un cadenas pour le mode veille et le bouton de déconnexion. En bas, seul : le bouton Paramètres. Le bouton lune de la barre du haut a été retiré. Sur téléphone, la barre du bas garde l'essentiel, dont le cadenas du mode veille ; Déconnexion et « Signaler un problème » sont dans le menu."
+    },
+    {
+     "titre": "Signaler un problème",
+     "apport": "Le bouton « Signaler un problème » est maintenant dans la barre d'icônes de droite (petit drapeau), au lieu du bas du menu."
+    },
+    {
+     "titre": "Accueil réorganisé",
+     "apport": "Sur l'accueil, le bandeau « Bonjour » et ses notifications sont dans la barre du haut, à côté du logo, et la recherche rapide, plus visible, est au centre de la ligne « Modules principaux ». Sur les autres écrans, la recherche reste en haut."
+    },
+    {
+     "titre": "Affichage téléphone repensé",
+     "apport": "Sur téléphone, les modules de l'accueil s'affichent en icônes, comme les applis du téléphone, et les Paramètres comme ceux d'Android : une liste de rubriques, puis la rubrique touchée en plein écran (Retour revient à la liste). Les en-têtes d'écran sont plus courts et les pastilles du bandeau défilent du doigt."
+    },
+    {
+     "titre": "Menu de gauche retouché",
+     "apport": "Le logo Gérimo du menu est plus discret et le cadre du profil a été retiré pour alléger le menu. Pour changer son mot de passe : cliquer sur son initiale, en haut à droite."
+    },
+    {
+     "titre": "Amélioration de l'interface",
+     "apport": ""
+    }
+   ]
+  },
+  {
+   "version": "1.165",
+   "numero": 165,
+   "date": "08/11/2026",
+   "elements": [
+    {
+     "titre": "Mise à jour par clé USB",
+     "apport": "Sans Internet, l'Admin installe une nouvelle version apportée sur clé USB : Paramètres → À propos → Mise à jour → « Depuis une clé USB ». Le fichier est contrôlé avant installation et la base est sauvegardée avant."
+    }
+   ]
+  },
+  {
+   "version": "1.162",
+   "numero": 162,
+   "date": "02/11/2026",
+   "elements": [
+    {
+     "titre": "Politique de confidentialité plus claire",
+     "apport": "Dans « À propos », la politique de confidentialité n'affiche plus que sa date de mise à jour, sans indication technique."
+    },
+    {
+     "titre": "Mise à jour du suivi",
+     "apport": ""
+    }
+   ]
+  },
+  {
+   "version": "1.158",
+   "numero": 158,
+   "date": "26/10/2026",
+   "elements": [
+    {
+     "titre": "Abonnement en retard : le travail continue",
+     "apport": "Si l'abonnement n'est pas réglé, Gérimo ne bloque plus d'un coup. À partir du 5 du mois impayé, un rappel s'affiche dans les notifications. Après le 15, certaines fonctions sont réduites (nouveaux biens, propriétaires, locataires et contrats, messages WhatsApp, rapports et exports Excel), mais consulter, encaisser les loyers et imprimer les reçus restent possibles. Après un mois sans paiement, Gérimo passe en lecture seule. Tout revient dès l'activation de la nouvelle clé."
+    },
+    {
+     "titre": "Abonnement renouvelé tout seul",
+     "apport": "Quand votre paiement mensuel est confirmé par l'éditeur, Gérimo installe tout seul la nouvelle licence dès qu'il est connecté à Internet : plus de clé à recopier. Un message « Paiement reçu, merci ! » s'affiche dans les notifications. Paramètres → À propos → « Vérifier mon abonnement » le fait tout de suite."
+    },
+    {
+     "titre": "Fin de contrat claire",
+     "apport": "Quand un contrat se termine, Gérimo l'annonce dans À propos → Licence, puis passe en lecture seule à la date prévue : vos données restent consultables, imprimables et sauvegardables. Un nouveau contrat rétablit tout, avec toutes vos données."
+    }
+   ]
+  },
+  {
+   "version": "1.153",
+   "numero": 153,
+   "date": "22/10/2026",
+   "elements": [
+    {
+     "titre": "Icône aux bords arrondis",
+     "apport": "L'icône de Gérimo Pro (bureau, barre des tâches, près de l'horloge) est maintenant une tuile aux coins arrondis, au lieu du logo seul."
+    }
+   ]
+  },
+  {
+   "version": "1.151",
+   "numero": 151,
+   "date": "21/10/2026",
+   "elements": [
+    {
+     "titre": "Documents à vos couleurs uniquement",
+     "apport": "Les reçus, quittances, contrats et rapports n'affichent plus le logo de Gérimo : seulement le logo de votre entreprise, s'il est enregistré dans Paramètres → Réglages → « Mon entreprise ». Les rapports PDF n'indiquent plus le nom de la personne qui les a imprimés."
+    },
+    {
+     "titre": "Le rapport PDF",
+     "apport": ""
+    }
+   ]
+  }
+ ],
+ "nouveautes": [
+  {
+   "date": "11/11/2026",
+   "texte": "Propriétaires portant le même nom — Quand vous créez un propriétaire dont le nom existe déjà, Gérimo vous demande s'il s'agit de la même personne. Si ce n'est pas le cas, son téléphone (ou sa CNI) le distingue de l'autre dans toutes les listes. La reprise de données ne mélange plus jamais deux personnes du même nom."
+  },
+  {
+   "date": "11/11/2026",
+   "texte": "Fusionner deux fiches de propriétaire — Une même personne enregistrée deux fois ? Le bouton « Fusionner » de la liste des propriétaires regroupe ses biens, mandats, RIB, reversements et pièces jointes sur une seule fiche (Admin, avec son mot de passe)."
+  },
+  {
+   "date": "11/11/2026",
+   "texte": "Bandeau « Bonjour » plus calme — Le bandeau « Bonjour » de l'accueil ne fait plus défiler que les notifications les plus récentes, à vitesse lente et régulière. Leur nombre se règle dans Paramètres → Réglages → « Bandeau Bonjour de l'accueil » (15 par défaut). La cloche et Gérimo gardent toutes les notifications."
+  },
+  {
+   "date": "11/11/2026",
+   "texte": "Gérimo dans la barre de droite — Le bouton rond de Gérimo, votre assistant, qui flottait en bas à droite de l'écran, est maintenant rangé dans la barre de droite, juste sous le bouton de déconnexion, avec une nouvelle icône (un petit robot dans une bulle) qui ne bouge plus : il ne cache plus rien sur la page."
+  },
+  {
+   "date": "11/11/2026",
+   "texte": "Modules principaux plus larges — Sur l'accueil, les 8 modules principaux s'affichent en deux rangées de 4 cartes plus larges."
+  },
+  {
+   "date": "11/11/2026",
+   "texte": "Type de logement « À préciser » — À la reprise de données, un logement dont on ne connaît pas encore le type (studio, 2 pièces…) peut être importé en « À préciser ». Vous le corrigez plus tard sur la fiche du logement, quand vous avez l'information."
+  },
+  {
+   "date": "11/11/2026",
+   "texte": "Nouveau contrat de bail — Le contrat de bail imprimé reprend le modèle utilisé par les agences : votre logo de part et d'autre du titre encadré, 18 articles (désignation, durée, loyer, dépôt de garantie, avance, résiliation…) et les signatures « Pour le bailleur / Pour le preneur ». La pénalité de retard n'y figure que si elle est activée dans Paramètres, la caution et l'avance seulement si le contrat en prévoit. Les téléphones du gérant, à saisir dans Paramètres → Mon entreprise, s'impriment sous sa signature."
+  },
+  {
+   "date": "10/11/2026",
+   "texte": "Versement partiel sur un loyer — Quand un locataire en retard ne peut pas tout payer, cochez « Versement partiel » à l'encaissement et saisissez ce qu'il verse. Gérimo solde d'abord les mois les plus anciens et garde le reste à payer sur le mois suivant : le reçu l'indique, et les impayés ne comptent plus que ce qui reste réellement dû. La quittance est délivrée quand le mois est entièrement payé."
+  },
+  {
+   "date": "10/11/2026",
+   "texte": "Reprise des locataires déjà en place — À la reprise de données, un locataire déjà en place peut garder sa vraie date d'entrée tout en étant suivi par Gérimo à partir d'un mois choisi : seuls son arriéré et les mois suivants sont comptés comme dus."
+  },
+  {
+   "date": "09/11/2026",
+   "texte": "Première installation du serveur corrigée — Sur un PC neuf, Gérimo Serveur pouvait s'arrêter au premier lancement avec le message « La base de données n'a pas pu être préparée » alors que le mot de passe était bon. Il démarre maintenant normalement dès la première fois."
+  },
+  {
+   "date": "09/11/2026",
+   "texte": "Correction à l'installation"
+  },
+  {
+   "date": "08/11/2026",
+   "texte": "Amélioration de l'affichage android"
+  },
+  {
+   "date": "08/11/2026",
+   "texte": "Paramètres façon Windows — Les Paramètres s'ouvrent maintenant avec une colonne à gauche, chaque rubrique ayant son icône fine, et un grand titre au-dessus de la rubrique ouverte, comme dans les Paramètres de Windows."
+  },
+  {
+   "date": "08/11/2026",
+   "texte": "Accueil plus aéré — Le bandeau « Bonjour » en haut de l'accueil est plus fin : les modules principaux apparaissent plus haut dans l'écran."
+  },
+  {
+   "date": "08/11/2026",
+   "texte": "Une seule pastille de notifications — Le nombre de choses à faire ne s'affiche plus sur le bouton Gérimo, seulement sur la cloche de notification."
+  }
+ ],
+ "modules": [
+  "PIL",
+  "PIL.Image",
+  "PIL.ImageOps",
+  "anthropic",
+  "anyio.from_thread",
+  "base64",
+  "bcrypt",
+  "binascii",
+  "calendar",
+  "collections",
+  "contextlib",
+  "cryptography",
+  "cryptography.exceptions",
+  "cryptography.hazmat.primitives",
+  "cryptography.hazmat.primitives.asymmetric",
+  "cryptography.hazmat.primitives.asymmetric.ec",
+  "cryptography.hazmat.primitives.asymmetric.ed25519",
+  "cryptography.hazmat.primitives.ciphers.aead",
+  "cryptography.hazmat.primitives.hashes",
+  "cryptography.hazmat.primitives.kdf.hkdf",
+  "cryptography.hazmat.primitives.serialization",
+  "cryptography.x509",
+  "cryptography.x509.oid",
+  "csv",
+  "ctypes",
+  "ctypes.wintypes",
+  "dataclasses",
+  "datetime",
+  "decimal",
+  "dotenv",
+  "email.message",
+  "email.utils",
+  "enum",
+  "fastapi",
+  "fastapi.exceptions",
+  "fastapi.responses",
+  "fastapi.staticfiles",
+  "fpdf",
+  "glob",
+  "hashlib",
+  "hmac",
+  "html",
+  "importlib.util",
+  "io",
+  "ipaddress",
+  "json",
+  "logging",
+  "math",
+  "num2words",
+  "openpyxl",
+  "openpyxl.styles",
+  "openpyxl.worksheet.datavalidation",
+  "os",
+  "pathlib",
+  "platform",
+  "psycopg2",
+  "psycopg2.sql",
+  "pydantic",
+  "pymupdf",
+  "pymysql",
+  "pyodbc",
+  "queue",
+  "random",
+  "re",
+  "secrets",
+  "shutil",
+  "smtplib",
+  "socket",
+  "sqlalchemy",
+  "sqlalchemy.dialects.postgresql",
+  "sqlalchemy.engine",
+  "sqlalchemy.event",
+  "sqlalchemy.exc",
+  "sqlalchemy.orm",
+  "sqlite3",
+  "ssl",
+  "subprocess",
+  "sys",
+  "tempfile",
+  "threading",
+  "time",
+  "traceback",
+  "types",
+  "typing",
+  "unicodedata",
+  "urllib.error",
+  "urllib.parse",
+  "urllib.request",
+  "uuid",
+  "winreg",
+  "zipfile"
+ ],
+ "fichier": "paquets/Gerimo-1.190.zip"
+}
