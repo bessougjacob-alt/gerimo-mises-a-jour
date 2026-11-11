@@ -1,10 +1,30 @@
 {
- "version": "1.190",
- "numero": 190,
+ "version": "1.194",
+ "numero": 194,
  "date": "11/11/2026",
  "versions": [
   {
+   "version": "1.194",
+   "date": "11/11/2026",
+   "elements": [
+    {
+     "titre": "Messages groupés",
+     "apport": "Finances → « Messages groupés » : envoyez le même message à plusieurs locataires, ou à tous — rappel de loyer en début de mois, alerte de retard ou annonce écrite par vous (coupure d'eau, fermeture du bureau…). Chaque message est personnalisé (nom, logement, montant) ; Gérimo ouvre WhatsApp pour chacun à tour de rôle et note qui a été prévenu. Vous pouvez aussi télécharger les contacts des locataires pour créer une liste de diffusion WhatsApp."
+    },
+    {
+     "titre": "Ajuster l'écran",
+     "apport": "Sur un grand écran, le bouton « Ajuster l'écran » (menu de gauche, ou Paramètres → À propos) agrandit tout l'affichage — textes, cartes et espacements — à la bonne taille pour cet écran. On peut aussi choisir soi-même le pourcentage. Le réglage est propre à chaque PC. « À propos » indique aussi la taille de l'écran."
+    },
+    {
+     "titre": "Mises à jour par Internet sans réglage",
+     "apport": "Le bouton « Mise à jour » trouve tout seul les nouvelles versions de Gérimo sur Internet : plus besoin de dépôt ni de jeton dans les Paramètres. Chaque version est vérifiée (signature de l'éditeur) avant d'être installée. Sans Internet, la clé USB reste possible."
+    }
+   ],
+   "numero": 194
+  },
+  {
    "version": "1.190",
+   "numero": 190,
    "date": "11/11/2026",
    "elements": [
     {
@@ -15,8 +35,7 @@
      "titre": "Fusionner deux fiches de propriétaire",
      "apport": "Une même personne enregistrée deux fois ? Le bouton « Fusionner » de la liste des propriétaires regroupe ses biens, mandats, RIB, reversements et pièces jointes sur une seule fiche (Admin, avec son mot de passe)."
     }
-   ],
-   "numero": 190
+   ]
   },
   {
    "version": "1.187",
@@ -195,24 +214,21 @@
      "apport": "L'icône de Gérimo Pro (bureau, barre des tâches, près de l'horloge) est maintenant une tuile aux coins arrondis, au lieu du logo seul."
     }
    ]
-  },
-  {
-   "version": "1.151",
-   "numero": 151,
-   "date": "21/10/2026",
-   "elements": [
-    {
-     "titre": "Documents à vos couleurs uniquement",
-     "apport": "Les reçus, quittances, contrats et rapports n'affichent plus le logo de Gérimo : seulement le logo de votre entreprise, s'il est enregistré dans Paramètres → Réglages → « Mon entreprise ». Les rapports PDF n'indiquent plus le nom de la personne qui les a imprimés."
-    },
-    {
-     "titre": "Le rapport PDF",
-     "apport": ""
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "11/11/2026",
+   "texte": "Messages groupés — Finances → « Messages groupés » : envoyez le même message à plusieurs locataires, ou à tous — rappel de loyer en début de mois, alerte de retard ou annonce écrite par vous (coupure d'eau, fermeture du bureau…). Chaque message est personnalisé (nom, logement, montant) ; Gérimo ouvre WhatsApp pour chacun à tour de rôle et note qui a été prévenu. Vous pouvez aussi télécharger les contacts des locataires pour créer une liste de diffusion WhatsApp."
+  },
+  {
+   "date": "11/11/2026",
+   "texte": "Ajuster l'écran — Sur un grand écran, le bouton « Ajuster l'écran » (menu de gauche, ou Paramètres → À propos) agrandit tout l'affichage — textes, cartes et espacements — à la bonne taille pour cet écran. On peut aussi choisir soi-même le pourcentage. Le réglage est propre à chaque PC. « À propos » indique aussi la taille de l'écran."
+  },
+  {
+   "date": "11/11/2026",
+   "texte": "Mises à jour par Internet sans réglage — Le bouton « Mise à jour » trouve tout seul les nouvelles versions de Gérimo sur Internet : plus besoin de dépôt ni de jeton dans les Paramètres. Chaque version est vérifiée (signature de l'éditeur) avant d'être installée. Sans Internet, la clé USB reste possible."
+  },
   {
    "date": "11/11/2026",
    "texte": "Propriétaires portant le même nom — Quand vous créez un propriétaire dont le nom existe déjà, Gérimo vous demande s'il s'agit de la même personne. Si ce n'est pas le cas, son téléphone (ou sa CNI) le distingue de l'autre dans toutes les listes. La reprise de données ne mélange plus jamais deux personnes du même nom."
@@ -260,18 +276,6 @@
   {
    "date": "08/11/2026",
    "texte": "Amélioration de l'affichage android"
-  },
-  {
-   "date": "08/11/2026",
-   "texte": "Paramètres façon Windows — Les Paramètres s'ouvrent maintenant avec une colonne à gauche, chaque rubrique ayant son icône fine, et un grand titre au-dessus de la rubrique ouverte, comme dans les Paramètres de Windows."
-  },
-  {
-   "date": "08/11/2026",
-   "texte": "Accueil plus aéré — Le bandeau « Bonjour » en haut de l'accueil est plus fin : les modules principaux apparaissent plus haut dans l'écran."
-  },
-  {
-   "date": "08/11/2026",
-   "texte": "Une seule pastille de notifications — Le nombre de choses à faire ne s'affiche plus sur le bouton Gérimo, seulement sur la cloche de notification."
   }
  ],
  "modules": [
@@ -367,5 +371,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.190.zip"
+ "fichier": "paquets/Gerimo-1.194.zip"
 }
