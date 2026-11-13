@@ -1,10 +1,42 @@
 {
- "version": "1.194",
- "numero": 194,
- "date": "11/11/2026",
+ "version": "1.204",
+ "numero": 204,
+ "date": "13/11/2026",
  "versions": [
   {
+   "version": "1.204",
+   "date": "13/11/2026",
+   "elements": [
+    {
+     "titre": "Fiches détaillées : locataires, contrats, biens, propriétaires",
+     "apport": "En haut de chaque liste, des chiffres clés montrent l'essentiel : locataires en retard, à risque, départs prévus, logements libres… Un clic sur un chiffre n'affiche que les lignes concernées. Chaque ligne porte la couleur de son état (vert : à jour, orange : en retard, rouge : à risque) et s'ouvre d'un clic dans une fiche claire : ce qui reste à payer, le prochain loyer, les derniers paiements, les logements d'un bien, les biens d'un propriétaire, avec les boutons Encaisser, WhatsApp et Modifier."
+    },
+    {
+     "titre": "Métiers de la licence",
+     "apport": "Gérimo peut maintenant servir à d'autres métiers que l'immobilier. Paramètres → À propos indique les métiers ouverts par votre licence ; les écrans d'un métier non compris dans la licence n'apparaissent pas. Pour les clients actuels, rien ne change : l'immobilier reste ouvert."
+    },
+    {
+     "titre": "Commerce : articles et fournisseurs",
+     "apport": "Pour les boutiques (métier Commerce) : nouvel écran « Stock & articles ». Chaque article a un prix détail et un prix gros, une vente possible par lot (à la bouteille ou au carton de 24), un code-barres, et Gérimo peut prévenir quand il n'en reste presque plus. Le bénéfice s'affiche pour l'Admin et la Caisse, jamais pour le magasinier. Un onglet Fournisseurs garde leurs coordonnées."
+    },
+    {
+     "titre": "Commerce : arrivages et ce que je dois aux fournisseurs",
+     "apport": "Quand un fournisseur livre, le magasinier note ce qui est arrivé (à la pièce ou par carton, avec la date limite) : le stock monte tout de suite. La Caisse met ensuite les prix de la facture et note ce qui est payé ; l'onglet « Ce que je dois » montre le reste dû à chaque fournisseur, et chaque paiement apparaît dans la Trésorerie."
+    },
+    {
+     "titre": "Commerce : sorties de stock et inventaire",
+     "apport": "Un produit cassé, périmé, disparu ou utilisé par la boutique ? « Sortie de stock » le retire en notant pourquoi ; l'Admin voit ce que ces pertes ont coûté dans le mois. « Faire l'inventaire » : on tape ce qu'on compte (par carton et à l'unité), Gérimo montre tout de suite les écarts ; le magasinier enregistre, l'Admin valide et le stock est corrigé. Les ruptures, les produits presque épuisés, les dates limites proches et les arrivages sans prix s'affichent dans les notifications."
+    },
+    {
+     "titre": "Commerce : l'essentiel en un coup d'œil",
+     "apport": "Chaque article est une tuile avec son stock en gros et en couleur (vert : en stock, orange : presque plus, rouge : plus en stock). En haut, des chiffres clés cliquables montrent ce qu'il faut racheter et les dates limites proches. Un clic sur un article ou un arrivage ouvre une fenêtre avec tout le détail."
+    }
+   ],
+   "numero": 204
+  },
+  {
    "version": "1.194",
+   "numero": 194,
    "date": "11/11/2026",
    "elements": [
     {
@@ -19,8 +51,7 @@
      "titre": "Mises à jour par Internet sans réglage",
      "apport": "Le bouton « Mise à jour » trouve tout seul les nouvelles versions de Gérimo sur Internet : plus besoin de dépôt ni de jeton dans les Paramètres. Chaque version est vérifiée (signature de l'éditeur) avant d'être installée. Sans Internet, la clé USB reste possible."
     }
-   ],
-   "numero": 194
+   ]
   },
   {
    "version": "1.190",
@@ -203,20 +234,33 @@
      "apport": "Quand un contrat se termine, Gérimo l'annonce dans À propos → Licence, puis passe en lecture seule à la date prévue : vos données restent consultables, imprimables et sauvegardables. Un nouveau contrat rétablit tout, avec toutes vos données."
     }
    ]
-  },
-  {
-   "version": "1.153",
-   "numero": 153,
-   "date": "22/10/2026",
-   "elements": [
-    {
-     "titre": "Icône aux bords arrondis",
-     "apport": "L'icône de Gérimo Pro (bureau, barre des tâches, près de l'horloge) est maintenant une tuile aux coins arrondis, au lieu du logo seul."
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "13/11/2026",
+   "texte": "Fiches détaillées : locataires, contrats, biens, propriétaires — En haut de chaque liste, des chiffres clés montrent l'essentiel : locataires en retard, à risque, départs prévus, logements libres… Un clic sur un chiffre n'affiche que les lignes concernées. Chaque ligne porte la couleur de son état (vert : à jour, orange : en retard, rouge : à risque) et s'ouvre d'un clic dans une fiche claire : ce qui reste à payer, le prochain loyer, les derniers paiements, les logements d'un bien, les biens d'un propriétaire, avec les boutons Encaisser, WhatsApp et Modifier."
+  },
+  {
+   "date": "13/11/2026",
+   "texte": "Métiers de la licence — Gérimo peut maintenant servir à d'autres métiers que l'immobilier. Paramètres → À propos indique les métiers ouverts par votre licence ; les écrans d'un métier non compris dans la licence n'apparaissent pas. Pour les clients actuels, rien ne change : l'immobilier reste ouvert."
+  },
+  {
+   "date": "13/11/2026",
+   "texte": "Commerce : articles et fournisseurs — Pour les boutiques (métier Commerce) : nouvel écran « Stock & articles ». Chaque article a un prix détail et un prix gros, une vente possible par lot (à la bouteille ou au carton de 24), un code-barres, et Gérimo peut prévenir quand il n'en reste presque plus. Le bénéfice s'affiche pour l'Admin et la Caisse, jamais pour le magasinier. Un onglet Fournisseurs garde leurs coordonnées."
+  },
+  {
+   "date": "13/11/2026",
+   "texte": "Commerce : arrivages et ce que je dois aux fournisseurs — Quand un fournisseur livre, le magasinier note ce qui est arrivé (à la pièce ou par carton, avec la date limite) : le stock monte tout de suite. La Caisse met ensuite les prix de la facture et note ce qui est payé ; l'onglet « Ce que je dois » montre le reste dû à chaque fournisseur, et chaque paiement apparaît dans la Trésorerie."
+  },
+  {
+   "date": "13/11/2026",
+   "texte": "Commerce : sorties de stock et inventaire — Un produit cassé, périmé, disparu ou utilisé par la boutique ? « Sortie de stock » le retire en notant pourquoi ; l'Admin voit ce que ces pertes ont coûté dans le mois. « Faire l'inventaire » : on tape ce qu'on compte (par carton et à l'unité), Gérimo montre tout de suite les écarts ; le magasinier enregistre, l'Admin valide et le stock est corrigé. Les ruptures, les produits presque épuisés, les dates limites proches et les arrivages sans prix s'affichent dans les notifications."
+  },
+  {
+   "date": "13/11/2026",
+   "texte": "Commerce : l'essentiel en un coup d'œil — Chaque article est une tuile avec son stock en gros et en couleur (vert : en stock, orange : presque plus, rouge : plus en stock). En haut, des chiffres clés cliquables montrent ce qu'il faut racheter et les dates limites proches. Un clic sur un article ou un arrivage ouvre une fenêtre avec tout le détail."
+  },
   {
    "date": "11/11/2026",
    "texte": "Messages groupés — Finances → « Messages groupés » : envoyez le même message à plusieurs locataires, ou à tous — rappel de loyer en début de mois, alerte de retard ou annonce écrite par vous (coupure d'eau, fermeture du bureau…). Chaque message est personnalisé (nom, logement, montant) ; Gérimo ouvre WhatsApp pour chacun à tour de rôle et note qui a été prévenu. Vous pouvez aussi télécharger les contacts des locataires pour créer une liste de diffusion WhatsApp."
@@ -252,30 +296,6 @@
   {
    "date": "11/11/2026",
    "texte": "Type de logement « À préciser » — À la reprise de données, un logement dont on ne connaît pas encore le type (studio, 2 pièces…) peut être importé en « À préciser ». Vous le corrigez plus tard sur la fiche du logement, quand vous avez l'information."
-  },
-  {
-   "date": "11/11/2026",
-   "texte": "Nouveau contrat de bail — Le contrat de bail imprimé reprend le modèle utilisé par les agences : votre logo de part et d'autre du titre encadré, 18 articles (désignation, durée, loyer, dépôt de garantie, avance, résiliation…) et les signatures « Pour le bailleur / Pour le preneur ». La pénalité de retard n'y figure que si elle est activée dans Paramètres, la caution et l'avance seulement si le contrat en prévoit. Les téléphones du gérant, à saisir dans Paramètres → Mon entreprise, s'impriment sous sa signature."
-  },
-  {
-   "date": "10/11/2026",
-   "texte": "Versement partiel sur un loyer — Quand un locataire en retard ne peut pas tout payer, cochez « Versement partiel » à l'encaissement et saisissez ce qu'il verse. Gérimo solde d'abord les mois les plus anciens et garde le reste à payer sur le mois suivant : le reçu l'indique, et les impayés ne comptent plus que ce qui reste réellement dû. La quittance est délivrée quand le mois est entièrement payé."
-  },
-  {
-   "date": "10/11/2026",
-   "texte": "Reprise des locataires déjà en place — À la reprise de données, un locataire déjà en place peut garder sa vraie date d'entrée tout en étant suivi par Gérimo à partir d'un mois choisi : seuls son arriéré et les mois suivants sont comptés comme dus."
-  },
-  {
-   "date": "09/11/2026",
-   "texte": "Première installation du serveur corrigée — Sur un PC neuf, Gérimo Serveur pouvait s'arrêter au premier lancement avec le message « La base de données n'a pas pu être préparée » alors que le mot de passe était bon. Il démarre maintenant normalement dès la première fois."
-  },
-  {
-   "date": "09/11/2026",
-   "texte": "Correction à l'installation"
-  },
-  {
-   "date": "08/11/2026",
-   "texte": "Amélioration de l'affichage android"
   }
  ],
  "modules": [
@@ -371,5 +391,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.194.zip"
+ "fichier": "paquets/Gerimo-1.204.zip"
 }
