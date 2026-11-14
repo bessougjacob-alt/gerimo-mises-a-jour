@@ -1,10 +1,78 @@
 {
- "version": "1.204",
- "numero": 204,
- "date": "13/11/2026",
+ "version": "1.223",
+ "numero": 223,
+ "date": "14/11/2026",
  "versions": [
   {
+   "version": "1.223",
+   "date": "14/11/2026",
+   "elements": [
+    {
+     "titre": "Carte de visite : format de la maquette indiqué",
+     "apport": "À côté du bouton « Uploader vCard », Gérimo indique le format attendu : un PDF (ou un .ai compatible PDF) de 85 × 55 mm, de préférence avec 3 mm de fond perdu, 1 ou 2 pages, avec le nom, la fonction et les téléphones écrits en texte. Si la maquette envoyée n'a pas la bonne taille, Gérimo prévient qu'elle risque d'être mal cadrée à l'impression."
+    },
+    {
+     "titre": "Menu rangé en espaces",
+     "apport": "Le menu est plus court : les écrans sont rangés par espaces, avec leurs rubriques en tuiles à gauche (comme Paramètres). Patrimoine : biens, propriétaires, achats et ventes de biens, problèmes. Locations : contrats, locataires, courte durée, états des lieux, courriers. Loyers : encaissements, impayés, historique, messages groupés. Argent : trésorerie, dépenses, reversements, résultat et TVA. Rapports : tous les chiffres. Agenda : rendez-vous, demandes de clients, réseaux sociaux. Selon votre licence : Boutique et Mobile Money. Rien n'a disparu : tout est au même endroit qu'avant, dans son espace."
+    },
+    {
+     "titre": "Actions rapides plus directes",
+     "apport": "Sur l'accueil, les gestes de tous les jours sont à un seul toucher : Encaisser un loyer, Caisse, Guichet, Dépense (selon votre licence). Les menus Ajouter, Imprimer et Exporter sont rangés par métier. Pour modifier ou supprimer, cliquez simplement sur la ligne : sa fiche s'ouvre avec les boutons."
+    },
+    {
+     "titre": "Scanner avec le téléphone",
+     "apport": "À la caisse et dans le stock, le bouton 📷 lit le code-barres d'un article avec l'appareil photo du téléphone : l'article va directement dans le panier (ou sa fiche s'ouvre). Sans douchette, sans rien installer : si la vidéo n'est pas possible, on prend simplement une photo du code-barres."
+    },
+    {
+     "titre": "Caisse sur téléphone",
+     "apport": "Sur téléphone, le total et le bouton « Encaisser » restent toujours en bas de l'écran pendant qu'on choisit les articles ; « Voir le ticket » déplie le panier."
+    },
+    {
+     "titre": "Caisse et Mobile Money sans réseau",
+     "apport": "Sur le téléphone, quand le serveur ne répond pas, on continue à vendre au comptoir (bon provisoire), à créer un client, à encaisser un client à crédit, et à servir au guichet Mobile Money. Le stock et les soldes affichés se mettent à jour tout de suite ; tout part au serveur à son retour, à la date réelle de l'opération."
+    },
+    {
+     "titre": "Mobile Money relié à la Trésorerie",
+     "apport": "Un apport d'espèces au kiosque, une sortie d'espèces, un rechargement de puce payé par la banque ou une commission versée par l'opérateur peuvent être reliés à un compte de l'entreprise : ils apparaissent dans la Trésorerie et dans l'export comptable. La Trésorerie montre aussi l'argent de chaque kiosque (espèces et puces), et le rapport des commissions compare ce qui était attendu à ce qui a été reçu."
+    },
+    {
+     "titre": "Nouveau métier : Agence Mobile Money",
+     "apport": "Pour les agences Orange Money, MTN MoMo, Moov Money et Wave : au guichet, on touche l'opérateur, puis Dépôt ou Retrait, le montant, et c'est enregistré. Le solde de chaque puce et les espèces en caisse restent affichés en grand, avec une alerte quand ils deviennent bas. Rechargement des puces, apport ou sortie d'espèces, clôture du soir avec les écarts, commissions calculées selon le barème de chaque opérateur, plusieurs kiosques avec leurs agents. Le métier s'ouvre par la licence."
+    },
+    {
+     "titre": "Commerce : bilan de la boutique",
+     "apport": "Nouvel écran « Bilan de la boutique » (Admin, Caisse, Comptable) : pour aujourd'hui, le mois, le mois dernier ou l'année, le chiffre d'affaires, le bénéfice, les pertes, ce que les clients doivent, ce que je dois aux fournisseurs et la valeur du stock, en grand. En dessous : les ventes jour par jour, les meilleurs articles, ceux qui restent en stock sans se vendre, les ventes par vendeur et par mode de paiement. Le tout s'imprime en PDF."
+    },
+    {
+     "titre": "Commerce : ticket, facture et reçu",
+     "apport": "Après chaque vente : le ticket de caisse au format de votre imprimante (58 mm, 80 mm ou A4, à choisir dans Paramètres → Réglages), la facture A4 si le client la demande, ou le ticket envoyé par WhatsApp. Chaque paiement d'un client à crédit a son reçu. Les clients qui doivent de l'argent apparaissent dans les notifications."
+    },
+    {
+     "titre": "Fenêtres plus légères",
+     "apport": "Le rappel des raccourcis clavier n'apparaît plus sous chaque formulaire. La liste complète des raccourcis est rangée dans Paramètres → Assistant → « Raccourcis clavier »."
+    },
+    {
+     "titre": "Commerce : la caisse au comptoir",
+     "apport": "Nouvel écran « Ventes & caisse », pensé comme une vraie caisse : on touche les articles (ou on les scanne), ils s'ajoutent au ticket, le total s'affiche en grand. Un seul bouton « Encaisser », puis « Compte juste » ou le billet donné : la monnaie à rendre s'affiche en grand. Espèces ou Mobile Money d'un toucher, prix détail ou gros, remise permise jusqu'au pourcentage choisi par l'Admin. Vente à crédit possible pour un client enregistré, avec un plafond. Chaque vente sort du stock et entre dans la Trésorerie ; l'historique des ventes et les clients qui doivent de l'argent s'ouvrent d'un clic."
+    },
+    {
+     "titre": "Tout s'ouvre d'un clic",
+     "apport": "Partout où Gérimo affiche une liste — encaissements, impayés, historique des paiements, dépenses, achats et ventes, trésorerie (comptes, mouvements, transferts, arrêtés), reversements, séjours, agenda, demandes de clients, courriers, états des lieux, problèmes signalés, fournisseurs, comptes utilisateurs, journal, corbeille, sauvegardes — chaque ligne porte la couleur de son état et s'ouvre d'un clic dans une fiche claire, avec l'essentiel en grand et les boutons utiles."
+    },
+    {
+     "titre": "Rubriques en tuiles, comme dans Paramètres",
+     "apport": "Trésorerie, Stock, Rapports et Agenda présentent leurs rubriques comme Paramètres : une colonne de tuiles avec une icône à gauche, et le nom de la rubrique en grand titre. On voit tout de suite où l'on est et où aller."
+    },
+    {
+     "titre": "Commerce : sorties de stock et inventaire",
+     "apport": "Un produit cassé, périmé, disparu ou utilisé par la boutique ? « Sortie de stock » le retire en notant pourquoi ; l'Admin voit ce que ces pertes ont coûté dans le mois. « Faire l'inventaire » : on tape ce qu'on compte (par carton et à l'unité), Gérimo montre tout de suite les écarts ; le magasinier enregistre, l'Admin valide et le stock est corrigé. Les ruptures, les produits presque épuisés, les dates limites proches et les arrivages sans prix s'affichent dans les notifications."
+    }
+   ],
+   "numero": 223
+  },
+  {
    "version": "1.204",
+   "numero": 204,
    "date": "13/11/2026",
    "elements": [
     {
@@ -24,15 +92,10 @@
      "apport": "Quand un fournisseur livre, le magasinier note ce qui est arrivé (à la pièce ou par carton, avec la date limite) : le stock monte tout de suite. La Caisse met ensuite les prix de la facture et note ce qui est payé ; l'onglet « Ce que je dois » montre le reste dû à chaque fournisseur, et chaque paiement apparaît dans la Trésorerie."
     },
     {
-     "titre": "Commerce : sorties de stock et inventaire",
-     "apport": "Un produit cassé, périmé, disparu ou utilisé par la boutique ? « Sortie de stock » le retire en notant pourquoi ; l'Admin voit ce que ces pertes ont coûté dans le mois. « Faire l'inventaire » : on tape ce qu'on compte (par carton et à l'unité), Gérimo montre tout de suite les écarts ; le magasinier enregistre, l'Admin valide et le stock est corrigé. Les ruptures, les produits presque épuisés, les dates limites proches et les arrivages sans prix s'affichent dans les notifications."
-    },
-    {
      "titre": "Commerce : l'essentiel en un coup d'œil",
      "apport": "Chaque article est une tuile avec son stock en gros et en couleur (vert : en stock, orange : presque plus, rouge : plus en stock). En haut, des chiffres clés cliquables montrent ce qu'il faut racheter et les dates limites proches. Un clic sur un article ou un arrivage ouvre une fenêtre avec tout le détail."
     }
-   ],
-   "numero": 204
+   ]
   },
   {
    "version": "1.194",
@@ -215,87 +278,68 @@
      "apport": ""
     }
    ]
-  },
-  {
-   "version": "1.158",
-   "numero": 158,
-   "date": "26/10/2026",
-   "elements": [
-    {
-     "titre": "Abonnement en retard : le travail continue",
-     "apport": "Si l'abonnement n'est pas réglé, Gérimo ne bloque plus d'un coup. À partir du 5 du mois impayé, un rappel s'affiche dans les notifications. Après le 15, certaines fonctions sont réduites (nouveaux biens, propriétaires, locataires et contrats, messages WhatsApp, rapports et exports Excel), mais consulter, encaisser les loyers et imprimer les reçus restent possibles. Après un mois sans paiement, Gérimo passe en lecture seule. Tout revient dès l'activation de la nouvelle clé."
-    },
-    {
-     "titre": "Abonnement renouvelé tout seul",
-     "apport": "Quand votre paiement mensuel est confirmé par l'éditeur, Gérimo installe tout seul la nouvelle licence dès qu'il est connecté à Internet : plus de clé à recopier. Un message « Paiement reçu, merci ! » s'affiche dans les notifications. Paramètres → À propos → « Vérifier mon abonnement » le fait tout de suite."
-    },
-    {
-     "titre": "Fin de contrat claire",
-     "apport": "Quand un contrat se termine, Gérimo l'annonce dans À propos → Licence, puis passe en lecture seule à la date prévue : vos données restent consultables, imprimables et sauvegardables. Un nouveau contrat rétablit tout, avec toutes vos données."
-    }
-   ]
   }
  ],
  "nouveautes": [
   {
-   "date": "13/11/2026",
-   "texte": "Fiches détaillées : locataires, contrats, biens, propriétaires — En haut de chaque liste, des chiffres clés montrent l'essentiel : locataires en retard, à risque, départs prévus, logements libres… Un clic sur un chiffre n'affiche que les lignes concernées. Chaque ligne porte la couleur de son état (vert : à jour, orange : en retard, rouge : à risque) et s'ouvre d'un clic dans une fiche claire : ce qui reste à payer, le prochain loyer, les derniers paiements, les logements d'un bien, les biens d'un propriétaire, avec les boutons Encaisser, WhatsApp et Modifier."
+   "date": "14/11/2026",
+   "texte": "Carte de visite : format de la maquette indiqué — À côté du bouton « Uploader vCard », Gérimo indique le format attendu : un PDF (ou un .ai compatible PDF) de 85 × 55 mm, de préférence avec 3 mm de fond perdu, 1 ou 2 pages, avec le nom, la fonction et les téléphones écrits en texte. Si la maquette envoyée n'a pas la bonne taille, Gérimo prévient qu'elle risque d'être mal cadrée à l'impression."
   },
   {
-   "date": "13/11/2026",
-   "texte": "Métiers de la licence — Gérimo peut maintenant servir à d'autres métiers que l'immobilier. Paramètres → À propos indique les métiers ouverts par votre licence ; les écrans d'un métier non compris dans la licence n'apparaissent pas. Pour les clients actuels, rien ne change : l'immobilier reste ouvert."
+   "date": "14/11/2026",
+   "texte": "Menu rangé en espaces — Le menu est plus court : les écrans sont rangés par espaces, avec leurs rubriques en tuiles à gauche (comme Paramètres). Patrimoine : biens, propriétaires, achats et ventes de biens, problèmes. Locations : contrats, locataires, courte durée, états des lieux, courriers. Loyers : encaissements, impayés, historique, messages groupés. Argent : trésorerie, dépenses, reversements, résultat et TVA. Rapports : tous les chiffres. Agenda : rendez-vous, demandes de clients, réseaux sociaux. Selon votre licence : Boutique et Mobile Money. Rien n'a disparu : tout est au même endroit qu'avant, dans son espace."
   },
   {
-   "date": "13/11/2026",
-   "texte": "Commerce : articles et fournisseurs — Pour les boutiques (métier Commerce) : nouvel écran « Stock & articles ». Chaque article a un prix détail et un prix gros, une vente possible par lot (à la bouteille ou au carton de 24), un code-barres, et Gérimo peut prévenir quand il n'en reste presque plus. Le bénéfice s'affiche pour l'Admin et la Caisse, jamais pour le magasinier. Un onglet Fournisseurs garde leurs coordonnées."
+   "date": "14/11/2026",
+   "texte": "Actions rapides plus directes — Sur l'accueil, les gestes de tous les jours sont à un seul toucher : Encaisser un loyer, Caisse, Guichet, Dépense (selon votre licence). Les menus Ajouter, Imprimer et Exporter sont rangés par métier. Pour modifier ou supprimer, cliquez simplement sur la ligne : sa fiche s'ouvre avec les boutons."
   },
   {
-   "date": "13/11/2026",
-   "texte": "Commerce : arrivages et ce que je dois aux fournisseurs — Quand un fournisseur livre, le magasinier note ce qui est arrivé (à la pièce ou par carton, avec la date limite) : le stock monte tout de suite. La Caisse met ensuite les prix de la facture et note ce qui est payé ; l'onglet « Ce que je dois » montre le reste dû à chaque fournisseur, et chaque paiement apparaît dans la Trésorerie."
+   "date": "14/11/2026",
+   "texte": "Scanner avec le téléphone — À la caisse et dans le stock, le bouton 📷 lit le code-barres d'un article avec l'appareil photo du téléphone : l'article va directement dans le panier (ou sa fiche s'ouvre). Sans douchette, sans rien installer : si la vidéo n'est pas possible, on prend simplement une photo du code-barres."
   },
   {
-   "date": "13/11/2026",
+   "date": "14/11/2026",
+   "texte": "Caisse sur téléphone — Sur téléphone, le total et le bouton « Encaisser » restent toujours en bas de l'écran pendant qu'on choisit les articles ; « Voir le ticket » déplie le panier."
+  },
+  {
+   "date": "14/11/2026",
+   "texte": "Caisse et Mobile Money sans réseau — Sur le téléphone, quand le serveur ne répond pas, on continue à vendre au comptoir (bon provisoire), à créer un client, à encaisser un client à crédit, et à servir au guichet Mobile Money. Le stock et les soldes affichés se mettent à jour tout de suite ; tout part au serveur à son retour, à la date réelle de l'opération."
+  },
+  {
+   "date": "14/11/2026",
+   "texte": "Mobile Money relié à la Trésorerie — Un apport d'espèces au kiosque, une sortie d'espèces, un rechargement de puce payé par la banque ou une commission versée par l'opérateur peuvent être reliés à un compte de l'entreprise : ils apparaissent dans la Trésorerie et dans l'export comptable. La Trésorerie montre aussi l'argent de chaque kiosque (espèces et puces), et le rapport des commissions compare ce qui était attendu à ce qui a été reçu."
+  },
+  {
+   "date": "14/11/2026",
+   "texte": "Nouveau métier : Agence Mobile Money — Pour les agences Orange Money, MTN MoMo, Moov Money et Wave : au guichet, on touche l'opérateur, puis Dépôt ou Retrait, le montant, et c'est enregistré. Le solde de chaque puce et les espèces en caisse restent affichés en grand, avec une alerte quand ils deviennent bas. Rechargement des puces, apport ou sortie d'espèces, clôture du soir avec les écarts, commissions calculées selon le barème de chaque opérateur, plusieurs kiosques avec leurs agents. Le métier s'ouvre par la licence."
+  },
+  {
+   "date": "14/11/2026",
+   "texte": "Commerce : bilan de la boutique — Nouvel écran « Bilan de la boutique » (Admin, Caisse, Comptable) : pour aujourd'hui, le mois, le mois dernier ou l'année, le chiffre d'affaires, le bénéfice, les pertes, ce que les clients doivent, ce que je dois aux fournisseurs et la valeur du stock, en grand. En dessous : les ventes jour par jour, les meilleurs articles, ceux qui restent en stock sans se vendre, les ventes par vendeur et par mode de paiement. Le tout s'imprime en PDF."
+  },
+  {
+   "date": "14/11/2026",
+   "texte": "Commerce : ticket, facture et reçu — Après chaque vente : le ticket de caisse au format de votre imprimante (58 mm, 80 mm ou A4, à choisir dans Paramètres → Réglages), la facture A4 si le client la demande, ou le ticket envoyé par WhatsApp. Chaque paiement d'un client à crédit a son reçu. Les clients qui doivent de l'argent apparaissent dans les notifications."
+  },
+  {
+   "date": "14/11/2026",
+   "texte": "Fenêtres plus légères — Le rappel des raccourcis clavier n'apparaît plus sous chaque formulaire. La liste complète des raccourcis est rangée dans Paramètres → Assistant → « Raccourcis clavier »."
+  },
+  {
+   "date": "14/11/2026",
+   "texte": "Commerce : la caisse au comptoir — Nouvel écran « Ventes & caisse », pensé comme une vraie caisse : on touche les articles (ou on les scanne), ils s'ajoutent au ticket, le total s'affiche en grand. Un seul bouton « Encaisser », puis « Compte juste » ou le billet donné : la monnaie à rendre s'affiche en grand. Espèces ou Mobile Money d'un toucher, prix détail ou gros, remise permise jusqu'au pourcentage choisi par l'Admin. Vente à crédit possible pour un client enregistré, avec un plafond. Chaque vente sort du stock et entre dans la Trésorerie ; l'historique des ventes et les clients qui doivent de l'argent s'ouvrent d'un clic."
+  },
+  {
+   "date": "14/11/2026",
+   "texte": "Tout s'ouvre d'un clic — Partout où Gérimo affiche une liste — encaissements, impayés, historique des paiements, dépenses, achats et ventes, trésorerie (comptes, mouvements, transferts, arrêtés), reversements, séjours, agenda, demandes de clients, courriers, états des lieux, problèmes signalés, fournisseurs, comptes utilisateurs, journal, corbeille, sauvegardes — chaque ligne porte la couleur de son état et s'ouvre d'un clic dans une fiche claire, avec l'essentiel en grand et les boutons utiles."
+  },
+  {
+   "date": "14/11/2026",
+   "texte": "Rubriques en tuiles, comme dans Paramètres — Trésorerie, Stock, Rapports et Agenda présentent leurs rubriques comme Paramètres : une colonne de tuiles avec une icône à gauche, et le nom de la rubrique en grand titre. On voit tout de suite où l'on est et où aller."
+  },
+  {
+   "date": "14/11/2026",
    "texte": "Commerce : sorties de stock et inventaire — Un produit cassé, périmé, disparu ou utilisé par la boutique ? « Sortie de stock » le retire en notant pourquoi ; l'Admin voit ce que ces pertes ont coûté dans le mois. « Faire l'inventaire » : on tape ce qu'on compte (par carton et à l'unité), Gérimo montre tout de suite les écarts ; le magasinier enregistre, l'Admin valide et le stock est corrigé. Les ruptures, les produits presque épuisés, les dates limites proches et les arrivages sans prix s'affichent dans les notifications."
-  },
-  {
-   "date": "13/11/2026",
-   "texte": "Commerce : l'essentiel en un coup d'œil — Chaque article est une tuile avec son stock en gros et en couleur (vert : en stock, orange : presque plus, rouge : plus en stock). En haut, des chiffres clés cliquables montrent ce qu'il faut racheter et les dates limites proches. Un clic sur un article ou un arrivage ouvre une fenêtre avec tout le détail."
-  },
-  {
-   "date": "11/11/2026",
-   "texte": "Messages groupés — Finances → « Messages groupés » : envoyez le même message à plusieurs locataires, ou à tous — rappel de loyer en début de mois, alerte de retard ou annonce écrite par vous (coupure d'eau, fermeture du bureau…). Chaque message est personnalisé (nom, logement, montant) ; Gérimo ouvre WhatsApp pour chacun à tour de rôle et note qui a été prévenu. Vous pouvez aussi télécharger les contacts des locataires pour créer une liste de diffusion WhatsApp."
-  },
-  {
-   "date": "11/11/2026",
-   "texte": "Ajuster l'écran — Sur un grand écran, le bouton « Ajuster l'écran » (menu de gauche, ou Paramètres → À propos) agrandit tout l'affichage — textes, cartes et espacements — à la bonne taille pour cet écran. On peut aussi choisir soi-même le pourcentage. Le réglage est propre à chaque PC. « À propos » indique aussi la taille de l'écran."
-  },
-  {
-   "date": "11/11/2026",
-   "texte": "Mises à jour par Internet sans réglage — Le bouton « Mise à jour » trouve tout seul les nouvelles versions de Gérimo sur Internet : plus besoin de dépôt ni de jeton dans les Paramètres. Chaque version est vérifiée (signature de l'éditeur) avant d'être installée. Sans Internet, la clé USB reste possible."
-  },
-  {
-   "date": "11/11/2026",
-   "texte": "Propriétaires portant le même nom — Quand vous créez un propriétaire dont le nom existe déjà, Gérimo vous demande s'il s'agit de la même personne. Si ce n'est pas le cas, son téléphone (ou sa CNI) le distingue de l'autre dans toutes les listes. La reprise de données ne mélange plus jamais deux personnes du même nom."
-  },
-  {
-   "date": "11/11/2026",
-   "texte": "Fusionner deux fiches de propriétaire — Une même personne enregistrée deux fois ? Le bouton « Fusionner » de la liste des propriétaires regroupe ses biens, mandats, RIB, reversements et pièces jointes sur une seule fiche (Admin, avec son mot de passe)."
-  },
-  {
-   "date": "11/11/2026",
-   "texte": "Bandeau « Bonjour » plus calme — Le bandeau « Bonjour » de l'accueil ne fait plus défiler que les notifications les plus récentes, à vitesse lente et régulière. Leur nombre se règle dans Paramètres → Réglages → « Bandeau Bonjour de l'accueil » (15 par défaut). La cloche et Gérimo gardent toutes les notifications."
-  },
-  {
-   "date": "11/11/2026",
-   "texte": "Gérimo dans la barre de droite — Le bouton rond de Gérimo, votre assistant, qui flottait en bas à droite de l'écran, est maintenant rangé dans la barre de droite, juste sous le bouton de déconnexion, avec une nouvelle icône (un petit robot dans une bulle) qui ne bouge plus : il ne cache plus rien sur la page."
-  },
-  {
-   "date": "11/11/2026",
-   "texte": "Modules principaux plus larges — Sur l'accueil, les 8 modules principaux s'affichent en deux rangées de 4 cartes plus larges."
-  },
-  {
-   "date": "11/11/2026",
-   "texte": "Type de logement « À préciser » — À la reprise de données, un logement dont on ne connaît pas encore le type (studio, 2 pièces…) peut être importé en « À préciser ». Vous le corrigez plus tard sur la fiche du logement, quand vous avez l'information."
   }
  ],
  "modules": [
@@ -391,5 +435,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.204.zip"
+ "fichier": "paquets/Gerimo-1.223.zip"
 }
