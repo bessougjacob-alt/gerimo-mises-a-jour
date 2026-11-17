@@ -1,10 +1,38 @@
 {
- "version": "1.223",
- "numero": 223,
- "date": "14/11/2026",
+ "version": "1.235",
+ "numero": 235,
+ "date": "17/11/2026",
  "versions": [
   {
+   "version": "1.235",
+   "date": "17/11/2026",
+   "elements": [
+    {
+     "titre": "Écrans plus aérés",
+     "apport": "Sur ordinateur et sur téléphone, l'écriture est un peu plus petite et les cartes ont plus d'espace, à l'intérieur comme entre elles : les lignes des listes sont plus hautes et bien séparées, les formulaires et Paramètres sont plus espacés : les écrans sont plus clairs et moins chargés. Les cartes n'ont plus de bord coloré : l'état se lit à la couleur des chiffres et des étiquettes."
+    },
+    {
+     "titre": "Essai : seulement les métiers de votre activité",
+     "apport": "Pendant l'essai, tous les métiers sont ouverts. L'Admin peut maintenant cocher ceux de son entreprise dans Paramètres → À propos (par exemple Immobilier seul) : les écrans des autres métiers disparaissent. Une fois la clé de licence installée, c'est elle qui décide."
+    },
+    {
+     "titre": "Petites corrections d'affichage",
+     "apport": "Le guichet Mobile Money affiche toujours son propre titre, même ouvert juste après un rapport. Sous la caisse et le guichet, plus de cadre vert vide avant la première opération. Dans Messages groupés, la case « Votre message » n'apparaît plus que pour une annonce à écrire. Sur téléphone, à la clôture du soir Mobile Money, les montants ne sont plus coupés sur deux lignes."
+    },
+    {
+     "titre": "Ventes sans réseau : argent à remettre à la caisse",
+     "apport": "Quand le magasinier (ou un autre vendeur) vend ou encaisse un client à crédit sans réseau, l'argent reçu apparaît pour la Caisse en haut de l'onglet « Ventes » de la boutique : « Argent reçu » d'un clic quand il lui remet la somme, sans rien ressaisir (noté au journal)."
+    },
+    {
+     "titre": "Résultat et TVA : boutique et Mobile Money compris",
+     "apport": "Le Résultat (Argent → Résultat et TVA) compte maintenant les ventes de la boutique, le coût des marchandises vendues et les pertes (casse, périmés…), ainsi que les commissions Mobile Money reçues. Si l'entreprise est assujettie à la TVA, les ventes et les commissions Mobile Money sont comptées TVA comprise."
+    }
+   ],
+   "numero": 235
+  },
+  {
    "version": "1.223",
+   "numero": 223,
    "date": "14/11/2026",
    "elements": [
     {
@@ -67,8 +95,7 @@
      "titre": "Commerce : sorties de stock et inventaire",
      "apport": "Un produit cassé, périmé, disparu ou utilisé par la boutique ? « Sortie de stock » le retire en notant pourquoi ; l'Admin voit ce que ces pertes ont coûté dans le mois. « Faire l'inventaire » : on tape ce qu'on compte (par carton et à l'unité), Gérimo montre tout de suite les écarts ; le magasinier enregistre, l'Admin valide et le stock est corrigé. Les ruptures, les produits presque épuisés, les dates limites proches et les arrivages sans prix s'affichent dans les notifications."
     }
-   ],
-   "numero": 223
+   ]
   },
   {
    "version": "1.204",
@@ -263,24 +290,29 @@
      "apport": "Sans Internet, l'Admin installe une nouvelle version apportée sur clé USB : Paramètres → À propos → Mise à jour → « Depuis une clé USB ». Le fichier est contrôlé avant installation et la base est sauvegardée avant."
     }
    ]
-  },
-  {
-   "version": "1.162",
-   "numero": 162,
-   "date": "02/11/2026",
-   "elements": [
-    {
-     "titre": "Politique de confidentialité plus claire",
-     "apport": "Dans « À propos », la politique de confidentialité n'affiche plus que sa date de mise à jour, sans indication technique."
-    },
-    {
-     "titre": "Mise à jour du suivi",
-     "apport": ""
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "17/11/2026",
+   "texte": "Écrans plus aérés — Sur ordinateur et sur téléphone, l'écriture est un peu plus petite et les cartes ont plus d'espace, à l'intérieur comme entre elles : les lignes des listes sont plus hautes et bien séparées, les formulaires et Paramètres sont plus espacés : les écrans sont plus clairs et moins chargés. Les cartes n'ont plus de bord coloré : l'état se lit à la couleur des chiffres et des étiquettes."
+  },
+  {
+   "date": "17/11/2026",
+   "texte": "Essai : seulement les métiers de votre activité — Pendant l'essai, tous les métiers sont ouverts. L'Admin peut maintenant cocher ceux de son entreprise dans Paramètres → À propos (par exemple Immobilier seul) : les écrans des autres métiers disparaissent. Une fois la clé de licence installée, c'est elle qui décide."
+  },
+  {
+   "date": "17/11/2026",
+   "texte": "Petites corrections d'affichage — Le guichet Mobile Money affiche toujours son propre titre, même ouvert juste après un rapport. Sous la caisse et le guichet, plus de cadre vert vide avant la première opération. Dans Messages groupés, la case « Votre message » n'apparaît plus que pour une annonce à écrire. Sur téléphone, à la clôture du soir Mobile Money, les montants ne sont plus coupés sur deux lignes."
+  },
+  {
+   "date": "17/11/2026",
+   "texte": "Ventes sans réseau : argent à remettre à la caisse — Quand le magasinier (ou un autre vendeur) vend ou encaisse un client à crédit sans réseau, l'argent reçu apparaît pour la Caisse en haut de l'onglet « Ventes » de la boutique : « Argent reçu » d'un clic quand il lui remet la somme, sans rien ressaisir (noté au journal)."
+  },
+  {
+   "date": "17/11/2026",
+   "texte": "Résultat et TVA : boutique et Mobile Money compris — Le Résultat (Argent → Résultat et TVA) compte maintenant les ventes de la boutique, le coût des marchandises vendues et les pertes (casse, périmés…), ainsi que les commissions Mobile Money reçues. Si l'entreprise est assujettie à la TVA, les ventes et les commissions Mobile Money sont comptées TVA comprise."
+  },
   {
    "date": "14/11/2026",
    "texte": "Carte de visite : format de la maquette indiqué — À côté du bouton « Uploader vCard », Gérimo indique le format attendu : un PDF (ou un .ai compatible PDF) de 85 × 55 mm, de préférence avec 3 mm de fond perdu, 1 ou 2 pages, avec le nom, la fonction et les téléphones écrits en texte. Si la maquette envoyée n'a pas la bonne taille, Gérimo prévient qu'elle risque d'être mal cadrée à l'impression."
@@ -320,26 +352,6 @@
   {
    "date": "14/11/2026",
    "texte": "Commerce : ticket, facture et reçu — Après chaque vente : le ticket de caisse au format de votre imprimante (58 mm, 80 mm ou A4, à choisir dans Paramètres → Réglages), la facture A4 si le client la demande, ou le ticket envoyé par WhatsApp. Chaque paiement d'un client à crédit a son reçu. Les clients qui doivent de l'argent apparaissent dans les notifications."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Fenêtres plus légères — Le rappel des raccourcis clavier n'apparaît plus sous chaque formulaire. La liste complète des raccourcis est rangée dans Paramètres → Assistant → « Raccourcis clavier »."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Commerce : la caisse au comptoir — Nouvel écran « Ventes & caisse », pensé comme une vraie caisse : on touche les articles (ou on les scanne), ils s'ajoutent au ticket, le total s'affiche en grand. Un seul bouton « Encaisser », puis « Compte juste » ou le billet donné : la monnaie à rendre s'affiche en grand. Espèces ou Mobile Money d'un toucher, prix détail ou gros, remise permise jusqu'au pourcentage choisi par l'Admin. Vente à crédit possible pour un client enregistré, avec un plafond. Chaque vente sort du stock et entre dans la Trésorerie ; l'historique des ventes et les clients qui doivent de l'argent s'ouvrent d'un clic."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Tout s'ouvre d'un clic — Partout où Gérimo affiche une liste — encaissements, impayés, historique des paiements, dépenses, achats et ventes, trésorerie (comptes, mouvements, transferts, arrêtés), reversements, séjours, agenda, demandes de clients, courriers, états des lieux, problèmes signalés, fournisseurs, comptes utilisateurs, journal, corbeille, sauvegardes — chaque ligne porte la couleur de son état et s'ouvre d'un clic dans une fiche claire, avec l'essentiel en grand et les boutons utiles."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Rubriques en tuiles, comme dans Paramètres — Trésorerie, Stock, Rapports et Agenda présentent leurs rubriques comme Paramètres : une colonne de tuiles avec une icône à gauche, et le nom de la rubrique en grand titre. On voit tout de suite où l'on est et où aller."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Commerce : sorties de stock et inventaire — Un produit cassé, périmé, disparu ou utilisé par la boutique ? « Sortie de stock » le retire en notant pourquoi ; l'Admin voit ce que ces pertes ont coûté dans le mois. « Faire l'inventaire » : on tape ce qu'on compte (par carton et à l'unité), Gérimo montre tout de suite les écarts ; le magasinier enregistre, l'Admin valide et le stock est corrigé. Les ruptures, les produits presque épuisés, les dates limites proches et les arrivages sans prix s'affichent dans les notifications."
   }
  ],
  "modules": [
@@ -435,5 +447,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.223.zip"
+ "fichier": "paquets/Gerimo-1.235.zip"
 }
