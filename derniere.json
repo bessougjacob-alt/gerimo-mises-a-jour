@@ -1,10 +1,38 @@
 {
- "version": "1.235",
- "numero": 235,
- "date": "17/11/2026",
+ "version": "1.250",
+ "numero": 250,
+ "date": "19/11/2026",
  "versions": [
   {
+   "version": "1.250",
+   "date": "19/11/2026",
+   "elements": [
+    {
+     "titre": "Titres des modules plus grands",
+     "apport": "Le nom du module en haut de chaque écran (Loyers, Trésorerie, Dépenses…) et le nom de chaque carte de l'accueil sont écrits plus grand : on voit tout de suite où l'on est et où aller. Dans le tableau de bord de l'accueil, le titre de chaque carte est aussi plus grand, de la couleur de son chiffre (vert pour les loyers encaissés, orange pour les impayés, rouge pour les contrats à risque)."
+    },
+    {
+     "titre": "« Journal » de la Trésorerie devient « Entrées et sorties »",
+     "apport": "La rubrique qui montre tout l'argent entré et sorti de la caisse, de la banque et du Mobile Money, avec le solde après chaque opération, s'appelle maintenant « Entrées et sorties » : on ne la confond plus avec l'historique des paiements des locataires, ni avec le journal « qui a fait quoi » des Paramètres."
+    },
+    {
+     "titre": "« Finances » devient « Loyers »",
+     "apport": "L'écran des encaissements, impayés et relances s'appelle maintenant « Loyers », sur l'accueil comme dans le menu : on sait tout de suite ce qu'on y trouve."
+    },
+    {
+     "titre": "Rubriques au clavier",
+     "apport": "Dans un écran avec sa colonne de tuiles à gauche (Patrimoine, Boutique, Argent, Paramètres…), les flèches Haut et Bas du clavier ouvrent la rubrique précédente ou suivante. La flèche Droite emmène directement à la première case à remplir de la rubrique ; la flèche Gauche ramène sur sa tuile (dans une case de texte, quand le curseur est tout au début). Tout se fait sans toucher à la souris."
+    },
+    {
+     "titre": "Accueil et menu selon vos métiers",
+     "apport": "Si votre entreprise n'a qu'un seul métier (l'immobilier par exemple), l'accueil et le menu de gauche montrent de nouveau chaque écran séparément : Propriétaires, Biens, Contrats, Locataires, Loyers, Dépenses… Chaque écran porte alors le nom de son module, avec ses propres rubriques : Dépenses seules dans Dépenses, Trésorerie avec ses soldes, ses entrées et sorties et ses reversements, Résultat et TVA dans les Rapports. Si elle en a plusieurs, ils restent regroupés par espace pour ne pas surcharger l'écran."
+    }
+   ],
+   "numero": 250
+  },
+  {
    "version": "1.235",
+   "numero": 235,
    "date": "17/11/2026",
    "elements": [
     {
@@ -27,8 +55,7 @@
      "titre": "Résultat et TVA : boutique et Mobile Money compris",
      "apport": "Le Résultat (Argent → Résultat et TVA) compte maintenant les ventes de la boutique, le coût des marchandises vendues et les pertes (casse, périmés…), ainsi que les commissions Mobile Money reçues. Si l'entreprise est assujettie à la TVA, les ventes et les commissions Mobile Money sont comptées TVA comprise."
     }
-   ],
-   "numero": 235
+   ]
   },
   {
    "version": "1.223",
@@ -279,20 +306,29 @@
      "apport": ""
     }
    ]
-  },
-  {
-   "version": "1.165",
-   "numero": 165,
-   "date": "08/11/2026",
-   "elements": [
-    {
-     "titre": "Mise à jour par clé USB",
-     "apport": "Sans Internet, l'Admin installe une nouvelle version apportée sur clé USB : Paramètres → À propos → Mise à jour → « Depuis une clé USB ». Le fichier est contrôlé avant installation et la base est sauvegardée avant."
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "19/11/2026",
+   "texte": "Titres des modules plus grands — Le nom du module en haut de chaque écran (Loyers, Trésorerie, Dépenses…) et le nom de chaque carte de l'accueil sont écrits plus grand : on voit tout de suite où l'on est et où aller. Dans le tableau de bord de l'accueil, le titre de chaque carte est aussi plus grand, de la couleur de son chiffre (vert pour les loyers encaissés, orange pour les impayés, rouge pour les contrats à risque)."
+  },
+  {
+   "date": "19/11/2026",
+   "texte": "« Journal » de la Trésorerie devient « Entrées et sorties » — La rubrique qui montre tout l'argent entré et sorti de la caisse, de la banque et du Mobile Money, avec le solde après chaque opération, s'appelle maintenant « Entrées et sorties » : on ne la confond plus avec l'historique des paiements des locataires, ni avec le journal « qui a fait quoi » des Paramètres."
+  },
+  {
+   "date": "19/11/2026",
+   "texte": "« Finances » devient « Loyers » — L'écran des encaissements, impayés et relances s'appelle maintenant « Loyers », sur l'accueil comme dans le menu : on sait tout de suite ce qu'on y trouve."
+  },
+  {
+   "date": "19/11/2026",
+   "texte": "Rubriques au clavier — Dans un écran avec sa colonne de tuiles à gauche (Patrimoine, Boutique, Argent, Paramètres…), les flèches Haut et Bas du clavier ouvrent la rubrique précédente ou suivante. La flèche Droite emmène directement à la première case à remplir de la rubrique ; la flèche Gauche ramène sur sa tuile (dans une case de texte, quand le curseur est tout au début). Tout se fait sans toucher à la souris."
+  },
+  {
+   "date": "19/11/2026",
+   "texte": "Accueil et menu selon vos métiers — Si votre entreprise n'a qu'un seul métier (l'immobilier par exemple), l'accueil et le menu de gauche montrent de nouveau chaque écran séparément : Propriétaires, Biens, Contrats, Locataires, Loyers, Dépenses… Chaque écran porte alors le nom de son module, avec ses propres rubriques : Dépenses seules dans Dépenses, Trésorerie avec ses soldes, ses entrées et sorties et ses reversements, Résultat et TVA dans les Rapports. Si elle en a plusieurs, ils restent regroupés par espace pour ne pas surcharger l'écran."
+  },
   {
    "date": "17/11/2026",
    "texte": "Écrans plus aérés — Sur ordinateur et sur téléphone, l'écriture est un peu plus petite et les cartes ont plus d'espace, à l'intérieur comme entre elles : les lignes des listes sont plus hautes et bien séparées, les formulaires et Paramètres sont plus espacés : les écrans sont plus clairs et moins chargés. Les cartes n'ont plus de bord coloré : l'état se lit à la couleur des chiffres et des étiquettes."
@@ -332,26 +368,6 @@
   {
    "date": "14/11/2026",
    "texte": "Caisse sur téléphone — Sur téléphone, le total et le bouton « Encaisser » restent toujours en bas de l'écran pendant qu'on choisit les articles ; « Voir le ticket » déplie le panier."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Caisse et Mobile Money sans réseau — Sur le téléphone, quand le serveur ne répond pas, on continue à vendre au comptoir (bon provisoire), à créer un client, à encaisser un client à crédit, et à servir au guichet Mobile Money. Le stock et les soldes affichés se mettent à jour tout de suite ; tout part au serveur à son retour, à la date réelle de l'opération."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Mobile Money relié à la Trésorerie — Un apport d'espèces au kiosque, une sortie d'espèces, un rechargement de puce payé par la banque ou une commission versée par l'opérateur peuvent être reliés à un compte de l'entreprise : ils apparaissent dans la Trésorerie et dans l'export comptable. La Trésorerie montre aussi l'argent de chaque kiosque (espèces et puces), et le rapport des commissions compare ce qui était attendu à ce qui a été reçu."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Nouveau métier : Agence Mobile Money — Pour les agences Orange Money, MTN MoMo, Moov Money et Wave : au guichet, on touche l'opérateur, puis Dépôt ou Retrait, le montant, et c'est enregistré. Le solde de chaque puce et les espèces en caisse restent affichés en grand, avec une alerte quand ils deviennent bas. Rechargement des puces, apport ou sortie d'espèces, clôture du soir avec les écarts, commissions calculées selon le barème de chaque opérateur, plusieurs kiosques avec leurs agents. Le métier s'ouvre par la licence."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Commerce : bilan de la boutique — Nouvel écran « Bilan de la boutique » (Admin, Caisse, Comptable) : pour aujourd'hui, le mois, le mois dernier ou l'année, le chiffre d'affaires, le bénéfice, les pertes, ce que les clients doivent, ce que je dois aux fournisseurs et la valeur du stock, en grand. En dessous : les ventes jour par jour, les meilleurs articles, ceux qui restent en stock sans se vendre, les ventes par vendeur et par mode de paiement. Le tout s'imprime en PDF."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Commerce : ticket, facture et reçu — Après chaque vente : le ticket de caisse au format de votre imprimante (58 mm, 80 mm ou A4, à choisir dans Paramètres → Réglages), la facture A4 si le client la demande, ou le ticket envoyé par WhatsApp. Chaque paiement d'un client à crédit a son reçu. Les clients qui doivent de l'argent apparaissent dans les notifications."
   }
  ],
  "modules": [
@@ -447,5 +463,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.235.zip"
+ "fichier": "paquets/Gerimo-1.250.zip"
 }
