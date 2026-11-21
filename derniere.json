@@ -1,10 +1,50 @@
 {
- "version": "1.250",
- "numero": 250,
- "date": "19/11/2026",
+ "version": "1.260",
+ "numero": 260,
+ "date": "21/11/2026",
  "versions": [
   {
+   "version": "1.260",
+   "elements": [
+    {
+     "titre": "Guichet Mobile Money : montants sur une seule ligne",
+     "apport": "Sur un grand écran, le « F » des soldes (espèces, puces, commissions) ne passe plus tout seul à la ligne : chaque montant se lit d'un coup d'œil."
+    },
+    {
+     "titre": "Écran de connexion adapté à votre métier",
+     "apport": "Une boutique ou une agence Mobile Money ne voit plus « Gestion locative » ni « cités/biens » sur l'écran de connexion : seuls les mots de son activité s'affichent."
+    },
+    {
+     "titre": "Guichet Mobile Money : l'opérateur choisi bien visible",
+     "apport": "L'opérateur choisi (Orange, MTN, Moov ou Wave) est coché, coloré et mis en avant, et les autres sont grisés : impossible de se tromper de puce avant de valider."
+    },
+    {
+     "titre": "Caisse : quantité exacte d'un coup",
+     "apport": "Chaque article de la caisse a une petite icône panier : elle permet de taper la quantité voulue (ex : 24 cahiers, ou 3 paquets de 10) pour une grosse commande. Toucher l'article ajoute toujours 1."
+    },
+    {
+     "titre": "Douchette : scanner à tout moment",
+     "apport": "À la caisse, le lecteur de code-barres marche même si le curseur n'est pas dans la case de recherche, et il reconnaît aussi les codes avec des lettres. Un code inconnu indique où l'ajouter."
+    },
+    {
+     "titre": "Arrivage : scanner les articles livrés",
+     "apport": "Pendant la saisie d'un arrivage, scanner un article l'ajoute à la liste et place le curseur sur sa quantité."
+    },
+    {
+     "titre": "Boutique et Mobile Money : plus aucune trace de l'immobilier",
+     "apport": "Sans l'immobilier dans la licence, les écrans communs ne parlent plus de propriétaires, de locataires, de loyers ni de biens : soldes des comptes, dépenses (toutes au nom de l'entreprise), agenda, annonces (texte libre), carnet de RIB et paramètres."
+    },
+    {
+     "titre": "Appareil photo seulement sur téléphone",
+     "apport": "Sur ordinateur, c'est la douchette qui scanne : le bouton appareil photo n'y apparaît plus. Sur téléphone et tablette, il reste là pour scanner un code-barres sans douchette."
+    }
+   ],
+   "numero": 260,
+   "date": "21/11/2026"
+  },
+  {
    "version": "1.250",
+   "numero": 250,
    "date": "19/11/2026",
    "elements": [
     {
@@ -27,8 +67,7 @@
      "titre": "Accueil et menu selon vos métiers",
      "apport": "Si votre entreprise n'a qu'un seul métier (l'immobilier par exemple), l'accueil et le menu de gauche montrent de nouveau chaque écran séparément : Propriétaires, Biens, Contrats, Locataires, Loyers, Dépenses… Chaque écran porte alors le nom de son module, avec ses propres rubriques : Dépenses seules dans Dépenses, Trésorerie avec ses soldes, ses entrées et sorties et ses reversements, Résultat et TVA dans les Rapports. Si elle en a plusieurs, ils restent regroupés par espace pour ne pas surcharger l'écran."
     }
-   ],
-   "numero": 250
+   ]
   },
   {
    "version": "1.235",
@@ -259,56 +298,41 @@
      "apport": ""
     }
    ]
-  },
-  {
-   "version": "1.167",
-   "numero": 167,
-   "date": "08/11/2026",
-   "elements": [
-    {
-     "titre": "Paramètres façon Windows",
-     "apport": "Les Paramètres s'ouvrent maintenant avec une colonne à gauche, chaque rubrique ayant son icône fine, et un grand titre au-dessus de la rubrique ouverte, comme dans les Paramètres de Windows."
-    },
-    {
-     "titre": "Accueil plus aéré",
-     "apport": "Le bandeau « Bonjour » en haut de l'accueil est plus fin : les modules principaux apparaissent plus haut dans l'écran."
-    },
-    {
-     "titre": "Une seule pastille de notifications",
-     "apport": "Le nombre de choses à faire ne s'affiche plus sur le bouton Gérimo, seulement sur la cloche de notification."
-    },
-    {
-     "titre": "Accueil : plus de place pour les modules",
-     "apport": "Les cadres État des lieux, Agenda et Gérimo sont plus petits et commencent à la hauteur des modules ; les modules et le tableau de bord gagnent de la place."
-    },
-    {
-     "titre": "Barre de droite réorganisée",
-     "apport": "En haut de la barre d'icônes de droite : un cadenas pour le mode veille et le bouton de déconnexion. En bas, seul : le bouton Paramètres. Le bouton lune de la barre du haut a été retiré. Sur téléphone, la barre du bas garde l'essentiel, dont le cadenas du mode veille ; Déconnexion et « Signaler un problème » sont dans le menu."
-    },
-    {
-     "titre": "Signaler un problème",
-     "apport": "Le bouton « Signaler un problème » est maintenant dans la barre d'icônes de droite (petit drapeau), au lieu du bas du menu."
-    },
-    {
-     "titre": "Accueil réorganisé",
-     "apport": "Sur l'accueil, le bandeau « Bonjour » et ses notifications sont dans la barre du haut, à côté du logo, et la recherche rapide, plus visible, est au centre de la ligne « Modules principaux ». Sur les autres écrans, la recherche reste en haut."
-    },
-    {
-     "titre": "Affichage téléphone repensé",
-     "apport": "Sur téléphone, les modules de l'accueil s'affichent en icônes, comme les applis du téléphone, et les Paramètres comme ceux d'Android : une liste de rubriques, puis la rubrique touchée en plein écran (Retour revient à la liste). Les en-têtes d'écran sont plus courts et les pastilles du bandeau défilent du doigt."
-    },
-    {
-     "titre": "Menu de gauche retouché",
-     "apport": "Le logo Gérimo du menu est plus discret et le cadre du profil a été retiré pour alléger le menu. Pour changer son mot de passe : cliquer sur son initiale, en haut à droite."
-    },
-    {
-     "titre": "Amélioration de l'interface",
-     "apport": ""
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "21/11/2026",
+   "texte": "Guichet Mobile Money : montants sur une seule ligne — Sur un grand écran, le « F » des soldes (espèces, puces, commissions) ne passe plus tout seul à la ligne : chaque montant se lit d'un coup d'œil."
+  },
+  {
+   "date": "21/11/2026",
+   "texte": "Écran de connexion adapté à votre métier — Une boutique ou une agence Mobile Money ne voit plus « Gestion locative » ni « cités/biens » sur l'écran de connexion : seuls les mots de son activité s'affichent."
+  },
+  {
+   "date": "21/11/2026",
+   "texte": "Guichet Mobile Money : l'opérateur choisi bien visible — L'opérateur choisi (Orange, MTN, Moov ou Wave) est coché, coloré et mis en avant, et les autres sont grisés : impossible de se tromper de puce avant de valider."
+  },
+  {
+   "date": "21/11/2026",
+   "texte": "Caisse : quantité exacte d'un coup — Chaque article de la caisse a une petite icône panier : elle permet de taper la quantité voulue (ex : 24 cahiers, ou 3 paquets de 10) pour une grosse commande. Toucher l'article ajoute toujours 1."
+  },
+  {
+   "date": "21/11/2026",
+   "texte": "Douchette : scanner à tout moment — À la caisse, le lecteur de code-barres marche même si le curseur n'est pas dans la case de recherche, et il reconnaît aussi les codes avec des lettres. Un code inconnu indique où l'ajouter."
+  },
+  {
+   "date": "21/11/2026",
+   "texte": "Arrivage : scanner les articles livrés — Pendant la saisie d'un arrivage, scanner un article l'ajoute à la liste et place le curseur sur sa quantité."
+  },
+  {
+   "date": "21/11/2026",
+   "texte": "Boutique et Mobile Money : plus aucune trace de l'immobilier — Sans l'immobilier dans la licence, les écrans communs ne parlent plus de propriétaires, de locataires, de loyers ni de biens : soldes des comptes, dépenses (toutes au nom de l'entreprise), agenda, annonces (texte libre), carnet de RIB et paramètres."
+  },
+  {
+   "date": "21/11/2026",
+   "texte": "Appareil photo seulement sur téléphone — Sur ordinateur, c'est la douchette qui scanne : le bouton appareil photo n'y apparaît plus. Sur téléphone et tablette, il reste là pour scanner un code-barres sans douchette."
+  },
   {
    "date": "19/11/2026",
    "texte": "Titres des modules plus grands — Le nom du module en haut de chaque écran (Loyers, Trésorerie, Dépenses…) et le nom de chaque carte de l'accueil sont écrits plus grand : on voit tout de suite où l'on est et où aller. Dans le tableau de bord de l'accueil, le titre de chaque carte est aussi plus grand, de la couleur de son chiffre (vert pour les loyers encaissés, orange pour les impayés, rouge pour les contrats à risque)."
@@ -336,38 +360,6 @@
   {
    "date": "17/11/2026",
    "texte": "Essai : seulement les métiers de votre activité — Pendant l'essai, tous les métiers sont ouverts. L'Admin peut maintenant cocher ceux de son entreprise dans Paramètres → À propos (par exemple Immobilier seul) : les écrans des autres métiers disparaissent. Une fois la clé de licence installée, c'est elle qui décide."
-  },
-  {
-   "date": "17/11/2026",
-   "texte": "Petites corrections d'affichage — Le guichet Mobile Money affiche toujours son propre titre, même ouvert juste après un rapport. Sous la caisse et le guichet, plus de cadre vert vide avant la première opération. Dans Messages groupés, la case « Votre message » n'apparaît plus que pour une annonce à écrire. Sur téléphone, à la clôture du soir Mobile Money, les montants ne sont plus coupés sur deux lignes."
-  },
-  {
-   "date": "17/11/2026",
-   "texte": "Ventes sans réseau : argent à remettre à la caisse — Quand le magasinier (ou un autre vendeur) vend ou encaisse un client à crédit sans réseau, l'argent reçu apparaît pour la Caisse en haut de l'onglet « Ventes » de la boutique : « Argent reçu » d'un clic quand il lui remet la somme, sans rien ressaisir (noté au journal)."
-  },
-  {
-   "date": "17/11/2026",
-   "texte": "Résultat et TVA : boutique et Mobile Money compris — Le Résultat (Argent → Résultat et TVA) compte maintenant les ventes de la boutique, le coût des marchandises vendues et les pertes (casse, périmés…), ainsi que les commissions Mobile Money reçues. Si l'entreprise est assujettie à la TVA, les ventes et les commissions Mobile Money sont comptées TVA comprise."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Carte de visite : format de la maquette indiqué — À côté du bouton « Uploader vCard », Gérimo indique le format attendu : un PDF (ou un .ai compatible PDF) de 85 × 55 mm, de préférence avec 3 mm de fond perdu, 1 ou 2 pages, avec le nom, la fonction et les téléphones écrits en texte. Si la maquette envoyée n'a pas la bonne taille, Gérimo prévient qu'elle risque d'être mal cadrée à l'impression."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Menu rangé en espaces — Le menu est plus court : les écrans sont rangés par espaces, avec leurs rubriques en tuiles à gauche (comme Paramètres). Patrimoine : biens, propriétaires, achats et ventes de biens, problèmes. Locations : contrats, locataires, courte durée, états des lieux, courriers. Loyers : encaissements, impayés, historique, messages groupés. Argent : trésorerie, dépenses, reversements, résultat et TVA. Rapports : tous les chiffres. Agenda : rendez-vous, demandes de clients, réseaux sociaux. Selon votre licence : Boutique et Mobile Money. Rien n'a disparu : tout est au même endroit qu'avant, dans son espace."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Actions rapides plus directes — Sur l'accueil, les gestes de tous les jours sont à un seul toucher : Encaisser un loyer, Caisse, Guichet, Dépense (selon votre licence). Les menus Ajouter, Imprimer et Exporter sont rangés par métier. Pour modifier ou supprimer, cliquez simplement sur la ligne : sa fiche s'ouvre avec les boutons."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Scanner avec le téléphone — À la caisse et dans le stock, le bouton 📷 lit le code-barres d'un article avec l'appareil photo du téléphone : l'article va directement dans le panier (ou sa fiche s'ouvre). Sans douchette, sans rien installer : si la vidéo n'est pas possible, on prend simplement une photo du code-barres."
-  },
-  {
-   "date": "14/11/2026",
-   "texte": "Caisse sur téléphone — Sur téléphone, le total et le bouton « Encaisser » restent toujours en bas de l'écran pendant qu'on choisit les articles ; « Voir le ticket » déplie le panier."
   }
  ],
  "modules": [
@@ -463,5 +455,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.250.zip"
+ "fichier": "paquets/Gerimo-1.260.zip"
 }
