@@ -1,10 +1,10 @@
 {
- "version": "1.290",
- "numero": 290,
+ "version": "1.293",
+ "numero": 293,
  "date": "23/11/2026",
  "versions": [
   {
-   "version": "1.290",
+   "version": "1.293",
    "date": "23/11/2026",
    "elements": [
     {
@@ -12,7 +12,22 @@
      "apport": "Le logiciel est plus fiable et plus agréable."
     }
    ],
-   "numero": 290
+   "numero": 293
+  },
+  {
+   "version": "1.290",
+   "numero": 290,
+   "date": "23/11/2026",
+   "elements": [
+    {
+     "titre": "Améliorations et corrections",
+     "apport": "Le logiciel est plus fiable et plus agréable."
+    },
+    {
+     "titre": "Quittance plus courte",
+     "apport": "La quittance de loyer n’imprime plus le paragraphe « … déclare avoir reçu …, sous réserve de tous droits » : elle commence directement par le locataire, le logement, la période et la somme."
+    }
+   ]
   },
   {
    "version": "1.288",
@@ -451,27 +466,20 @@
      "apport": "Le contrat de bail imprimé reprend le modèle utilisé par les agences : votre logo de part et d'autre du titre encadré, 18 articles (désignation, durée, loyer, dépôt de garantie, avance, résiliation…) et les signatures « Pour le bailleur / Pour le preneur ». La pénalité de retard n'y figure que si elle est activée dans Paramètres, la caution et l'avance seulement si le contrat en prévoit. Les téléphones du gérant, à saisir dans Paramètres → Mon entreprise, s'impriment sous sa signature."
     }
    ]
-  },
-  {
-   "version": "1.177",
-   "numero": 177,
-   "date": "10/11/2026",
-   "elements": [
-    {
-     "titre": "Versement partiel sur un loyer",
-     "apport": "Quand un locataire en retard ne peut pas tout payer, cochez « Versement partiel » à l'encaissement et saisissez ce qu'il verse. Gérimo solde d'abord les mois les plus anciens et garde le reste à payer sur le mois suivant : le reçu l'indique, et les impayés ne comptent plus que ce qui reste réellement dû. La quittance est délivrée quand le mois est entièrement payé."
-    },
-    {
-     "titre": "Reprise des locataires déjà en place",
-     "apport": "À la reprise de données, un locataire déjà en place peut garder sa vraie date d'entrée tout en étant suivi par Gérimo à partir d'un mois choisi : seuls son arriéré et les mois suivants sont comptés comme dus."
-    }
-   ]
   }
  ],
  "nouveautes": [
   {
    "date": "23/11/2026",
    "texte": "Améliorations et corrections — Le logiciel est plus fiable et plus agréable."
+  },
+  {
+   "date": "23/11/2026",
+   "texte": "Améliorations et corrections — Le logiciel est plus fiable et plus agréable."
+  },
+  {
+   "date": "23/11/2026",
+   "texte": "Quittance plus courte — La quittance de loyer n’imprime plus le paragraphe « … déclare avoir reçu …, sous réserve de tous droits » : elle commence directement par le locataire, le logement, la période et la somme."
   },
   {
    "date": "23/11/2026",
@@ -520,14 +528,6 @@
   {
    "date": "23/11/2026",
    "texte": "Ferme : fiches techniques des animaux — Chaque animal étiqueté peut avoir sa fiche : n° de boucle ou d'étiquette, race, sexe, parents, génération, état de santé, pesées, caractéristiques particulières (yeux bleus, oreilles tombantes…). Gérimo propose un modèle complet pour chaque espèce : races courantes, cases propres (robe, pelage, cornes…) et repères (âge de mise à la reproduction, gestation, portée, sevrage, poids adulte). L'Admin peut adapter ces modèles."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : reproduction — Les accouplements se notent en un clic : Gérimo calcule la date de contrôle et la date de mise bas selon l'espèce, les met dans l'Agenda et prévient. À la naissance, on note les nés vivants, les morts-nés, les mâles et les femelles : les petits ont chacun leur fiche (parents et génération remplis tout seuls) ou sont comptés dans un lot."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : statistiques par espèce — Pour chaque espèce : nombre de mâles et de femelles, répartition par âge avec le poids moyen, mortalité, petits par portée, morts-nés, réussite des accouplements, survie jusqu'au sevrage, races les plus résistantes et meilleures mères."
   }
  ],
  "modules": [
@@ -623,5 +623,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.290.zip"
+ "fichier": "paquets/Gerimo-1.293.zip"
 }
