@@ -1,10 +1,23 @@
 {
- "version": "1.288",
- "numero": 288,
+ "version": "1.290",
+ "numero": 290,
  "date": "23/11/2026",
  "versions": [
   {
+   "version": "1.290",
+   "date": "23/11/2026",
+   "elements": [
+    {
+     "titre": "Améliorations et corrections",
+     "apport": "Le logiciel est plus fiable et plus agréable."
+    }
+   ],
+   "numero": 290
+  },
+  {
    "version": "1.288",
+   "numero": 288,
+   "date": "23/11/2026",
    "elements": [
     {
      "titre": "Nouveau métier : Ferme (volaille)",
@@ -177,10 +190,12 @@
     {
      "titre": "Rapport par bien : barre de recherche",
      "apport": "Une barre « Rechercher ici... » filtre le rapport pendant la frappe : nom du bien, numéro de logement, locataire ou contact."
+    },
+    {
+     "titre": "Historique des anciens classeurs dans les rapports",
+     "apport": "Paramètres → Reprise de données accepte maintenant un « Historique des loyers » : ce que chaque locataire a versé, mois par mois, dans les anciens classeurs de l’agence. Le rapport par bien, le rapport annuel, le rapport par locataire, les statistiques et les relevés des propriétaires montrent alors aussi les mois d’avant Gérimo. Les locataires partis avant Gérimo apparaissent comme « anciens locataires ». Cet historique ne crée ni contrat, ni impayé, ni encaissement, et l’import peut être annulé."
     }
-   ],
-   "numero": 288,
-   "date": "23/11/2026"
+   ]
   },
   {
    "version": "1.260",
@@ -451,24 +466,13 @@
      "apport": "À la reprise de données, un locataire déjà en place peut garder sa vraie date d'entrée tout en étant suivi par Gérimo à partir d'un mois choisi : seuls son arriéré et les mois suivants sont comptés comme dus."
     }
    ]
-  },
-  {
-   "version": "1.171",
-   "numero": 171,
-   "date": "09/11/2026",
-   "elements": [
-    {
-     "titre": "Première installation du serveur corrigée",
-     "apport": "Sur un PC neuf, Gérimo Serveur pouvait s'arrêter au premier lancement avec le message « La base de données n'a pas pu être préparée » alors que le mot de passe était bon. Il démarre maintenant normalement dès la première fois."
-    },
-    {
-     "titre": "Correction à l'installation",
-     "apport": ""
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "23/11/2026",
+   "texte": "Améliorations et corrections — Le logiciel est plus fiable et plus agréable."
+  },
   {
    "date": "23/11/2026",
    "texte": "Nouveau métier : Ferme (volaille) — Gérimo suit maintenant un élevage de volaille : poulets de chair, poules pondeuses, poulets traditionnels et pintades. Chaque arrivage de poussins devient une « lot » rangée dans son poulailler. Chaque jour, le chef de ferme note en une seule fois, pour tous les lots, les morts (et leur cause), les œufs ramassés et l'aliment donné. Gérimo affiche en grand les sujets vivants, l'âge, la mortalité, les œufs du jour et le taux de ponte, et prévient quand il y a beaucoup de morts ou quand le suivi d'hier a été oublié. Le chef de ferme ne voit pas l'argent : le prix des poussins est noté par la Caisse ou l'Admin."
@@ -524,10 +528,6 @@
   {
    "date": "23/11/2026",
    "texte": "Ferme : statistiques par espèce — Pour chaque espèce : nombre de mâles et de femelles, répartition par âge avec le poids moyen, mortalité, petits par portée, morts-nés, réussite des accouplements, survie jusqu'au sevrage, races les plus résistantes et meilleures mères."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : ventes — Vendez les animaux (à la pièce ou au kilo, d'un lot ou un animal avec fiche), les œufs au plateau, le lait ou d'autres produits. Paiement comptant, en partie ou à crédit (avec le nom du client), encaissement plus tard en un clic et rappel WhatsApp. Les animaux vendus sortent de leur lot, et l'argent arrive dans la Trésorerie."
   }
  ],
  "modules": [
@@ -623,5 +623,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.288.zip"
+ "fichier": "paquets/Gerimo-1.290.zip"
 }
