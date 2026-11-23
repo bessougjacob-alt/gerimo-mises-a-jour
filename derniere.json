@@ -1,10 +1,191 @@
 {
- "version": "1.260",
- "numero": 260,
- "date": "21/11/2026",
+ "version": "1.288",
+ "numero": 288,
+ "date": "23/11/2026",
  "versions": [
   {
+   "version": "1.288",
+   "elements": [
+    {
+     "titre": "Nouveau métier : Ferme (volaille)",
+     "apport": "Gérimo suit maintenant un élevage de volaille : poulets de chair, poules pondeuses, poulets traditionnels et pintades. Chaque arrivage de poussins devient une « lot » rangée dans son poulailler. Chaque jour, le chef de ferme note en une seule fois, pour tous les lots, les morts (et leur cause), les œufs ramassés et l'aliment donné. Gérimo affiche en grand les sujets vivants, l'âge, la mortalité, les œufs du jour et le taux de ponte, et prévient quand il y a beaucoup de morts ou quand le suivi d'hier a été oublié. Le chef de ferme ne voit pas l'argent : le prix des poussins est noté par la Caisse ou l'Admin."
+    },
+    {
+     "titre": "La Ferme a son propre style",
+     "apport": "Couleurs de la ferme (paille, jaune poussin, vert prairie), un dessin pour chaque volaille (poulet de chair, pondeuse, poulet traditionnel, pintade), des tableaux clairs et des mots simples. Dans le suivi du jour, on coche les volailles à suivre ; une fois enregistré, le suivi s'affiche en résumé et ne se modifie plus par erreur (bouton « Modifier ce suivi » pour le corriger)."
+    },
+    {
+     "titre": "Tout Gérimo aux couleurs de la ferme",
+     "apport": "Chez un éleveur (licence Ferme seule), tout le logiciel prend les couleurs de la ferme : accueil, menu, dépenses, trésorerie, agenda et paramètres. L'accueil montre « La ferme aujourd'hui » : volailles en vie, œufs ramassés, morts de la semaine et suivis à faire. Le module Ferme a son dessin (une ferme avec sa poule et son poussin), et les morts sont représentés par un poulet couché sur le dos."
+    },
+    {
+     "titre": "Ferme : stock des aliments et produits",
+     "apport": "La Ferme suit le stock des aliments, vaccins, médicaments et vitamines, matériel et litière, chacun avec son dessin. L'aliment s'achète en sacs et se compte en kg (1 250 kg = 25 sacs). L'aliment noté dans le suivi du jour sort tout seul du stock : il suffit de choisir l'aliment sur la ligne du lot. On note aussi ce qui est utilisé ou perdu (sacs mouillés, rats…), et l'Admin corrige le stock après un comptage. Gérimo prévient quand un produit est presque fini."
+    },
+    {
+     "titre": "Ferme : achats et ce que je dois aux fournisseurs",
+     "apport": "Chaque achat (aliments, vaccins…) augmente le stock tout de suite. Il peut être payé en entier, en partie ou à crédit : « Ce que je dois » montre ce qui reste à payer à chaque fournisseur, et on paie en un clic. Le chef de ferme peut noter ce qui est arrivé sans les prix ; la Caisse les complète. Les paiements apparaissent dans la Trésorerie, la comptabilité et le résultat."
+    },
+    {
+     "titre": "Couleurs plus contrastées chez un éleveur",
+     "apport": "Le menu et le bandeau « Bonjour » prennent le jaune clair et le marron du logo Gérimo. Les textes sont plus foncés, et les barres de recherche ont un vrai cadre bien visible."
+    },
+    {
+     "titre": "Ferme : tous les animaux, pas seulement la volaille",
+     "apport": "La Ferme suit maintenant toutes les espèces : volailles (chair, pondeuses, traditionnels, pintades, canards), lapins, aulacodes, porcs, moutons, chèvres, bovins et poissons, chacune avec son dessin. L'Admin peut en ajouter d'autres (cailles, escargots…) et retirer celles qu'il n'élève pas, dans « Bâtiments et animaux ». Le suivi du jour montre les bonnes cases selon l'espèce : naissances pour les lapins ou les porcs, œufs pour les pondeuses, lait pour les chèvres et les vaches. Les poulaillers deviennent des bâtiments (poulailler, clapier, porcherie, étable, bassin…)."
+    },
+    {
+     "titre": "Ferme : santé des animaux",
+     "apport": "L'Admin écrit une fois le programme des vaccins de chaque espèce (exemple : Gumboro à 7 jours). Pour chaque lot, Gérimo calcule les dates, les montre dans l'Agenda et prévient la veille, le jour même et en cas de retard. Un vaccin ou un traitement fait se note en un clic (« C'est fait »). Le produit ne sort du stock que si le flacon est fini : s'il en reste, on laisse la case cochée. Quand il n'y a plus aucun flacon, Gérimo empêche de noter le soin et prévient qu'il faut racheter le produit."
+    },
+    {
+     "titre": "Ferme : pesées et courbe de croissance",
+     "apport": "On pèse quelques animaux et on écrit leur poids total : Gérimo calcule le poids moyen, le compare au poids attendu pour l'âge et dessine la courbe de croissance du lot. Il prévient quand un lot grossit trop lentement. L'Admin peut adapter les poids attendus de chaque espèce."
+    },
+    {
+     "titre": "Ferme : visites du vétérinaire",
+     "apport": "Chaque visite est notée avec ce que le vétérinaire a vu et ses conseils, pour un lot ou pour toute la ferme. Son prix, noté par la Caisse ou l'Admin, s'ajoute tout seul aux Dépenses. La fiche de chaque lot montre ses vaccins, ses traitements, sa courbe de croissance et les visites."
+    },
+    {
+     "titre": "Ferme : âge des animaux",
+     "apport": "Gérimo donne l'âge de chaque lot et de chaque animal : âge à l'arrivée, temps passé à la ferme et âge aujourd'hui, écrit simplement (12 jours, 5 mois, 2 ans 3 mois). Pour un animal dont on connaît la date de naissance, l'âge se calcule tout seul."
+    },
+    {
+     "titre": "Ferme : fiches techniques des animaux",
+     "apport": "Chaque animal étiqueté peut avoir sa fiche : n° de boucle ou d'étiquette, race, sexe, parents, génération, état de santé, pesées, caractéristiques particulières (yeux bleus, oreilles tombantes…). Gérimo propose un modèle complet pour chaque espèce : races courantes, cases propres (robe, pelage, cornes…) et repères (âge de mise à la reproduction, gestation, portée, sevrage, poids adulte). L'Admin peut adapter ces modèles."
+    },
+    {
+     "titre": "Ferme : reproduction",
+     "apport": "Les accouplements se notent en un clic : Gérimo calcule la date de contrôle et la date de mise bas selon l'espèce, les met dans l'Agenda et prévient. À la naissance, on note les nés vivants, les morts-nés, les mâles et les femelles : les petits ont chacun leur fiche (parents et génération remplis tout seuls) ou sont comptés dans un lot."
+    },
+    {
+     "titre": "Ferme : statistiques par espèce",
+     "apport": "Pour chaque espèce : nombre de mâles et de femelles, répartition par âge avec le poids moyen, mortalité, petits par portée, morts-nés, réussite des accouplements, survie jusqu'au sevrage, races les plus résistantes et meilleures mères."
+    },
+    {
+     "titre": "Ferme : ventes",
+     "apport": "Vendez les animaux (à la pièce ou au kilo, d'un lot ou un animal avec fiche), les œufs au plateau, le lait ou d'autres produits. Paiement comptant, en partie ou à crédit (avec le nom du client), encaissement plus tard en un clic et rappel WhatsApp. Les animaux vendus sortent de leur lot, et l'argent arrive dans la Trésorerie."
+    },
+    {
+     "titre": "Ferme : rentabilité",
+     "apport": "Un tableau du business de la ferme : revenus, charges, bénéfice ou perte écrits en grand, pertes (animaux morts estimés à leur coût, produits perdus, œufs cassés, morts-nés), mois par mois et par espèce. Pour chaque lot : son bénéfice, son prix de revient (par animal, par kg, par œuf ou par litre) et son rendement (aliment pour 1 kg vendu, œufs pour 100 poules)."
+    },
+    {
+     "titre": "Ferme : dessins selon l'espèce",
+     "apport": "Les dessins suivent l'espèce choisie : un lapin pour les lapins, un porc pour les porcs… Les morts, les naissances, les mâles et les femelles ont leur petite marque sur le dessin de l'espèce. Le fond des écrans de la ferme est blanc et les cartes de chiffres ont un fin contour."
+    },
+    {
+     "titre": "Ferme : dépense rattachée à un lot",
+     "apport": "Dans une dépense de l'entreprise (salaire d'un ouvrier, électricité d'un bâtiment, transport des animaux…), on peut choisir le lot de la ferme qui la porte : elle compte alors dans le bénéfice de ce lot (Ferme → Rentabilité). Le prix d'une visite du vétérinaire pour un lot y est rattaché tout seul."
+    },
+    {
+     "titre": "Ferme : reçu de vente",
+     "apport": "Chaque vente de la ferme a son reçu à imprimer (PDF) : client, ce qui est vendu, total, montant payé, reste à payer et somme en lettres, avec l'identité de votre entreprise."
+    },
+    {
+     "titre": "Rentabilité : un module à part",
+     "apport": "Chez un éleveur, la Rentabilité a sa propre carte sur l'accueil et dans le menu, avec ses rubriques : Résultat (revenus, charges, bénéfice ou perte, mois par mois), Ventes, Par lot (bénéfice, prix de revient, rendement), Par espèce et Pertes."
+    },
+    {
+     "titre": "Cartes de chiffres plus lisibles",
+     "apport": "Dans la Ferme et la Rentabilité, le titre de chaque carte est écrit au-dessus du chiffre, avec une petite icône simple (patte, œuf, pièces, seringue…). Les dessins sont plus petits."
+    },
+    {
+     "titre": "Ferme : « lot » au lieu de « bande »",
+     "apport": "Partout dans la Ferme et la Rentabilité, on parle maintenant de « lot » : le mot des éleveurs, valable pour toutes les espèces (un lot de poulets, de lapins, de porcs, de poissons). Les nouveaux lots sont numérotés LOT-2026-001, LOT-2026-002…"
+    },
+    {
+     "titre": "Ferme : stock d'œufs",
+     "apport": "Les œufs ramassés (suivi du jour) entrent en stock, affiché en œufs et en plateaux de 30. Les ventes d'œufs, les œufs mis à couver, mangés à la maison ou perdus en sortent ; on note aussi les œufs achetés, et l'Admin corrige après un comptage. Gérimo refuse de vendre ou de couver plus d'œufs qu'il n'y en a."
+    },
+    {
+     "titre": "Ferme : couvoir",
+     "apport": "Mettez des œufs à couver en couveuse ou sous des poules, avec les œufs de la ferme ou des œufs achetés. Gérimo prévoit le mirage et l'éclosion selon l'espèce (poule 21 jours, pintade 27, canard 28), les met dans l'Agenda et prévient. Au mirage, on retire les œufs clairs ; à l'éclosion, les poussins vont dans un nouveau lot créé tout seul, dans un lot existant, ou à la vente. Taux de fécondité et d'éclosion affichés."
+    },
+    {
+     "titre": "Ferme : icônes simples partout",
+     "apport": "Dans la Ferme, chaque espèce et chaque objet a son icône simple et colorée (poule, coq, canard, lapin, porc, mouton, chèvre, bœuf, poisson, sac, seringue, œuf, bâtiment…), à la place des dessins. La carte « Ferme » de l'accueil a aussi son icône simple, et la rubrique « Lots » une nouvelle icône."
+    },
+    {
+     "titre": "Dépenses : les achats de la ferme dedans",
+     "apport": "Le module Dépenses regroupe maintenant les dépenses, les achats d'aliments et de produits de la ferme, « Ce que je dois » et les fournisseurs."
+    },
+    {
+     "titre": "Ferme : rubriques dans l'ordre du travail",
+     "apport": "Les rubriques de la Ferme suivent l'ordre où l'on travaille : bâtiments et animaux, lots, fiches techniques, suivi du jour, stock, santé, pesées, reproduction, œufs, couvoir, statistiques."
+    },
+    {
+     "titre": "Ferme : fiches techniques en tableau",
+     "apport": "« Fiches techniques » remplace « Animaux (fiches) » : un tableau à remplir directement, une ligne par animal (numéro, nom, sexe, race, naissance, âge à l'arrivée, parents, colonnes propres à l'espèce, caractéristiques, santé, poids). L'âge se calcule tout seul ; un seul bouton enregistre toutes les lignes."
+    },
+    {
+     "titre": "Ferme : bilan à imprimer",
+     "apport": "Dans Rentabilité, le bouton « Bilan à imprimer (PDF) » donne le bilan de la période choisie : revenus, charges, bénéfice, d'où vient l'argent et où il va, mois par mois, par espèce, par lot et les pertes."
+    },
+    {
+     "titre": "Ferme : nouvelles couleurs",
+     "apport": "Dans la Ferme, les cartes de chiffres et les en-têtes des tableaux sont en marron clair, les autres cadres en blanc. Le menu et le bandeau du haut gardent les couleurs habituelles de Gérimo."
+    },
+    {
+     "titre": "Ferme : le vétérinaire dans Santé",
+     "apport": "Les visites du vétérinaire se trouvent maintenant dans la rubrique Santé, sous les vaccins et les traitements."
+    },
+    {
+     "titre": "Loyer payé en fin de mois par défaut",
+     "apport": "Un nouveau contrat est proposé « payé en fin de mois », le cas le plus courant. Les contrats repris d’un ancien fichier passent tous en fin de mois : corrigez seulement les quelques locataires qui paient en début de mois (Contrats → Modifier)."
+    },
+    {
+     "titre": "Contrat : date de prise d’effet et date du jour",
+     "apport": "Le contrat de bail distingue la date à laquelle il prend effet et la date à laquelle il est établi. Les deux sont imprimées sur le contrat."
+    },
+    {
+     "titre": "Contrat sans avance",
+     "apport": "« Aucune avance » est maintenant possible : le locataire ne verse que la caution à l’entrée."
+    },
+    {
+     "titre": "Caution et avance sur le reçu",
+     "apport": "Le reçu de paiement indique la caution et l’avance prévues au contrat. Pour un locataire repris d’un ancien fichier, elles sont notées « versées » : on ne les lui redemande pas."
+    },
+    {
+     "titre": "Rapports : chaque loyer dans son mois",
+     "apport": "Dans Rapports & statistiques, le rapport par bien et les relevés des propriétaires, un loyer compte dans le mois qu’il paie, comme l’état des loyers de l’agence : le loyer d’octobre payé le 3 novembre compte en octobre, et plusieurs mois payés d’un coup comptent chacun dans leur mois. La caution compte au mois où elle est reçue. L’accueil, lui, montre toujours l’argent reçu ce mois-ci."
+    },
+    {
+     "titre": "Rapports : part de l’agence et part des propriétaires",
+     "apport": "Le rapport détaillé et les statistiques montrent clairement la part de l’agence (commission), la part des propriétaires, les dépenses des propriétaires et celles de l’agence, puis le net à reverser, au total, par propriétaire et par bien."
+    },
+    {
+     "titre": "Rapport annuel par bien",
+     "apport": "Dans Rapports → rapport par bien, choisissez « Année 2026 » (ou une année passée) : en plus du tableau des logements, un tableau mois par mois montre les loyers encaissés, la part de l’agence, la part du propriétaire, les dépenses, le net à reverser et les impayés. À imprimer en PDF ou à exporter vers Excel."
+    },
+    {
+     "titre": "Rapport par locataire : qui est bon payeur ?",
+     "apport": "Dans le rapport par bien, choisissez « Par locataire » : chaque locataire reçoit une appréciation (bon payeur, irrégulier, mauvais payeur), avec ses mois payés à temps, en retard ou impayés et son retard moyen. Un clic sur un locataire montre son détail mois par mois. À imprimer en PDF ou à exporter vers Excel."
+    },
+    {
+     "titre": "Logement réservé par le propriétaire",
+     "apport": "Quand un propriétaire occupe lui-même un de ses logements, le bouton à clé (Biens, sur la ligne du logement) le marque « Réservé par le propriétaire » : il n’est plus compté comme libre. Le même bouton le remet libre quand le propriétaire s’en va."
+    },
+    {
+     "titre": "Taux d’occupation plus juste",
+     "apport": "Le taux d’occupation ne compte plus que les logements occupés et les logements libres. Les logements réservés et ceux en maintenance sont affichés à part, partout (accueil, biens, rapports, statistiques)."
+    },
+    {
+     "titre": "Rapport par bien : plusieurs cités sur le même document",
+     "apport": "Dans Rapports → rapport par bien, le bouton des biens ouvre une liste à cocher avec sa recherche : choisissez une cité, plusieurs (par exemple toutes celles d’un même propriétaire, en tapant son nom) ou tous les biens. Leurs rapports s’affichent, s’impriment en un seul PDF et s’exportent dans un seul fichier Excel. « Par logement » s’appelle maintenant « Par bien »."
+    },
+    {
+     "titre": "Rapport par bien : barre de recherche",
+     "apport": "Une barre « Rechercher ici... » filtre le rapport pendant la frappe : nom du bien, numéro de logement, locataire ou contact."
+    }
+   ],
+   "numero": 288,
+   "date": "23/11/2026"
+  },
+  {
    "version": "1.260",
+   "numero": 260,
+   "date": "21/11/2026",
    "elements": [
     {
      "titre": "Guichet Mobile Money : montants sur une seule ligne",
@@ -38,9 +219,7 @@
      "titre": "Appareil photo seulement sur téléphone",
      "apport": "Sur ordinateur, c'est la douchette qui scanne : le bouton appareil photo n'y apparaît plus. Sur téléphone et tablette, il reste là pour scanner un code-barres sans douchette."
     }
-   ],
-   "numero": 260,
-   "date": "21/11/2026"
+   ]
   },
   {
    "version": "1.250",
@@ -287,79 +466,68 @@
      "apport": ""
     }
    ]
-  },
-  {
-   "version": "1.169",
-   "numero": 169,
-   "date": "08/11/2026",
-   "elements": [
-    {
-     "titre": "Amélioration de l'affichage android",
-     "apport": ""
-    }
-   ]
   }
  ],
  "nouveautes": [
   {
-   "date": "21/11/2026",
-   "texte": "Guichet Mobile Money : montants sur une seule ligne — Sur un grand écran, le « F » des soldes (espèces, puces, commissions) ne passe plus tout seul à la ligne : chaque montant se lit d'un coup d'œil."
+   "date": "23/11/2026",
+   "texte": "Nouveau métier : Ferme (volaille) — Gérimo suit maintenant un élevage de volaille : poulets de chair, poules pondeuses, poulets traditionnels et pintades. Chaque arrivage de poussins devient une « lot » rangée dans son poulailler. Chaque jour, le chef de ferme note en une seule fois, pour tous les lots, les morts (et leur cause), les œufs ramassés et l'aliment donné. Gérimo affiche en grand les sujets vivants, l'âge, la mortalité, les œufs du jour et le taux de ponte, et prévient quand il y a beaucoup de morts ou quand le suivi d'hier a été oublié. Le chef de ferme ne voit pas l'argent : le prix des poussins est noté par la Caisse ou l'Admin."
   },
   {
-   "date": "21/11/2026",
-   "texte": "Écran de connexion adapté à votre métier — Une boutique ou une agence Mobile Money ne voit plus « Gestion locative » ni « cités/biens » sur l'écran de connexion : seuls les mots de son activité s'affichent."
+   "date": "23/11/2026",
+   "texte": "La Ferme a son propre style — Couleurs de la ferme (paille, jaune poussin, vert prairie), un dessin pour chaque volaille (poulet de chair, pondeuse, poulet traditionnel, pintade), des tableaux clairs et des mots simples. Dans le suivi du jour, on coche les volailles à suivre ; une fois enregistré, le suivi s'affiche en résumé et ne se modifie plus par erreur (bouton « Modifier ce suivi » pour le corriger)."
   },
   {
-   "date": "21/11/2026",
-   "texte": "Guichet Mobile Money : l'opérateur choisi bien visible — L'opérateur choisi (Orange, MTN, Moov ou Wave) est coché, coloré et mis en avant, et les autres sont grisés : impossible de se tromper de puce avant de valider."
+   "date": "23/11/2026",
+   "texte": "Tout Gérimo aux couleurs de la ferme — Chez un éleveur (licence Ferme seule), tout le logiciel prend les couleurs de la ferme : accueil, menu, dépenses, trésorerie, agenda et paramètres. L'accueil montre « La ferme aujourd'hui » : volailles en vie, œufs ramassés, morts de la semaine et suivis à faire. Le module Ferme a son dessin (une ferme avec sa poule et son poussin), et les morts sont représentés par un poulet couché sur le dos."
   },
   {
-   "date": "21/11/2026",
-   "texte": "Caisse : quantité exacte d'un coup — Chaque article de la caisse a une petite icône panier : elle permet de taper la quantité voulue (ex : 24 cahiers, ou 3 paquets de 10) pour une grosse commande. Toucher l'article ajoute toujours 1."
+   "date": "23/11/2026",
+   "texte": "Ferme : stock des aliments et produits — La Ferme suit le stock des aliments, vaccins, médicaments et vitamines, matériel et litière, chacun avec son dessin. L'aliment s'achète en sacs et se compte en kg (1 250 kg = 25 sacs). L'aliment noté dans le suivi du jour sort tout seul du stock : il suffit de choisir l'aliment sur la ligne du lot. On note aussi ce qui est utilisé ou perdu (sacs mouillés, rats…), et l'Admin corrige le stock après un comptage. Gérimo prévient quand un produit est presque fini."
   },
   {
-   "date": "21/11/2026",
-   "texte": "Douchette : scanner à tout moment — À la caisse, le lecteur de code-barres marche même si le curseur n'est pas dans la case de recherche, et il reconnaît aussi les codes avec des lettres. Un code inconnu indique où l'ajouter."
+   "date": "23/11/2026",
+   "texte": "Ferme : achats et ce que je dois aux fournisseurs — Chaque achat (aliments, vaccins…) augmente le stock tout de suite. Il peut être payé en entier, en partie ou à crédit : « Ce que je dois » montre ce qui reste à payer à chaque fournisseur, et on paie en un clic. Le chef de ferme peut noter ce qui est arrivé sans les prix ; la Caisse les complète. Les paiements apparaissent dans la Trésorerie, la comptabilité et le résultat."
   },
   {
-   "date": "21/11/2026",
-   "texte": "Arrivage : scanner les articles livrés — Pendant la saisie d'un arrivage, scanner un article l'ajoute à la liste et place le curseur sur sa quantité."
+   "date": "23/11/2026",
+   "texte": "Couleurs plus contrastées chez un éleveur — Le menu et le bandeau « Bonjour » prennent le jaune clair et le marron du logo Gérimo. Les textes sont plus foncés, et les barres de recherche ont un vrai cadre bien visible."
   },
   {
-   "date": "21/11/2026",
-   "texte": "Boutique et Mobile Money : plus aucune trace de l'immobilier — Sans l'immobilier dans la licence, les écrans communs ne parlent plus de propriétaires, de locataires, de loyers ni de biens : soldes des comptes, dépenses (toutes au nom de l'entreprise), agenda, annonces (texte libre), carnet de RIB et paramètres."
+   "date": "23/11/2026",
+   "texte": "Ferme : tous les animaux, pas seulement la volaille — La Ferme suit maintenant toutes les espèces : volailles (chair, pondeuses, traditionnels, pintades, canards), lapins, aulacodes, porcs, moutons, chèvres, bovins et poissons, chacune avec son dessin. L'Admin peut en ajouter d'autres (cailles, escargots…) et retirer celles qu'il n'élève pas, dans « Bâtiments et animaux ». Le suivi du jour montre les bonnes cases selon l'espèce : naissances pour les lapins ou les porcs, œufs pour les pondeuses, lait pour les chèvres et les vaches. Les poulaillers deviennent des bâtiments (poulailler, clapier, porcherie, étable, bassin…)."
   },
   {
-   "date": "21/11/2026",
-   "texte": "Appareil photo seulement sur téléphone — Sur ordinateur, c'est la douchette qui scanne : le bouton appareil photo n'y apparaît plus. Sur téléphone et tablette, il reste là pour scanner un code-barres sans douchette."
+   "date": "23/11/2026",
+   "texte": "Ferme : santé des animaux — L'Admin écrit une fois le programme des vaccins de chaque espèce (exemple : Gumboro à 7 jours). Pour chaque lot, Gérimo calcule les dates, les montre dans l'Agenda et prévient la veille, le jour même et en cas de retard. Un vaccin ou un traitement fait se note en un clic (« C'est fait »). Le produit ne sort du stock que si le flacon est fini : s'il en reste, on laisse la case cochée. Quand il n'y a plus aucun flacon, Gérimo empêche de noter le soin et prévient qu'il faut racheter le produit."
   },
   {
-   "date": "19/11/2026",
-   "texte": "Titres des modules plus grands — Le nom du module en haut de chaque écran (Loyers, Trésorerie, Dépenses…) et le nom de chaque carte de l'accueil sont écrits plus grand : on voit tout de suite où l'on est et où aller. Dans le tableau de bord de l'accueil, le titre de chaque carte est aussi plus grand, de la couleur de son chiffre (vert pour les loyers encaissés, orange pour les impayés, rouge pour les contrats à risque)."
+   "date": "23/11/2026",
+   "texte": "Ferme : pesées et courbe de croissance — On pèse quelques animaux et on écrit leur poids total : Gérimo calcule le poids moyen, le compare au poids attendu pour l'âge et dessine la courbe de croissance du lot. Il prévient quand un lot grossit trop lentement. L'Admin peut adapter les poids attendus de chaque espèce."
   },
   {
-   "date": "19/11/2026",
-   "texte": "« Journal » de la Trésorerie devient « Entrées et sorties » — La rubrique qui montre tout l'argent entré et sorti de la caisse, de la banque et du Mobile Money, avec le solde après chaque opération, s'appelle maintenant « Entrées et sorties » : on ne la confond plus avec l'historique des paiements des locataires, ni avec le journal « qui a fait quoi » des Paramètres."
+   "date": "23/11/2026",
+   "texte": "Ferme : visites du vétérinaire — Chaque visite est notée avec ce que le vétérinaire a vu et ses conseils, pour un lot ou pour toute la ferme. Son prix, noté par la Caisse ou l'Admin, s'ajoute tout seul aux Dépenses. La fiche de chaque lot montre ses vaccins, ses traitements, sa courbe de croissance et les visites."
   },
   {
-   "date": "19/11/2026",
-   "texte": "« Finances » devient « Loyers » — L'écran des encaissements, impayés et relances s'appelle maintenant « Loyers », sur l'accueil comme dans le menu : on sait tout de suite ce qu'on y trouve."
+   "date": "23/11/2026",
+   "texte": "Ferme : âge des animaux — Gérimo donne l'âge de chaque lot et de chaque animal : âge à l'arrivée, temps passé à la ferme et âge aujourd'hui, écrit simplement (12 jours, 5 mois, 2 ans 3 mois). Pour un animal dont on connaît la date de naissance, l'âge se calcule tout seul."
   },
   {
-   "date": "19/11/2026",
-   "texte": "Rubriques au clavier — Dans un écran avec sa colonne de tuiles à gauche (Patrimoine, Boutique, Argent, Paramètres…), les flèches Haut et Bas du clavier ouvrent la rubrique précédente ou suivante. La flèche Droite emmène directement à la première case à remplir de la rubrique ; la flèche Gauche ramène sur sa tuile (dans une case de texte, quand le curseur est tout au début). Tout se fait sans toucher à la souris."
+   "date": "23/11/2026",
+   "texte": "Ferme : fiches techniques des animaux — Chaque animal étiqueté peut avoir sa fiche : n° de boucle ou d'étiquette, race, sexe, parents, génération, état de santé, pesées, caractéristiques particulières (yeux bleus, oreilles tombantes…). Gérimo propose un modèle complet pour chaque espèce : races courantes, cases propres (robe, pelage, cornes…) et repères (âge de mise à la reproduction, gestation, portée, sevrage, poids adulte). L'Admin peut adapter ces modèles."
   },
   {
-   "date": "19/11/2026",
-   "texte": "Accueil et menu selon vos métiers — Si votre entreprise n'a qu'un seul métier (l'immobilier par exemple), l'accueil et le menu de gauche montrent de nouveau chaque écran séparément : Propriétaires, Biens, Contrats, Locataires, Loyers, Dépenses… Chaque écran porte alors le nom de son module, avec ses propres rubriques : Dépenses seules dans Dépenses, Trésorerie avec ses soldes, ses entrées et sorties et ses reversements, Résultat et TVA dans les Rapports. Si elle en a plusieurs, ils restent regroupés par espace pour ne pas surcharger l'écran."
+   "date": "23/11/2026",
+   "texte": "Ferme : reproduction — Les accouplements se notent en un clic : Gérimo calcule la date de contrôle et la date de mise bas selon l'espèce, les met dans l'Agenda et prévient. À la naissance, on note les nés vivants, les morts-nés, les mâles et les femelles : les petits ont chacun leur fiche (parents et génération remplis tout seuls) ou sont comptés dans un lot."
   },
   {
-   "date": "17/11/2026",
-   "texte": "Écrans plus aérés — Sur ordinateur et sur téléphone, l'écriture est un peu plus petite et les cartes ont plus d'espace, à l'intérieur comme entre elles : les lignes des listes sont plus hautes et bien séparées, les formulaires et Paramètres sont plus espacés : les écrans sont plus clairs et moins chargés. Les cartes n'ont plus de bord coloré : l'état se lit à la couleur des chiffres et des étiquettes."
+   "date": "23/11/2026",
+   "texte": "Ferme : statistiques par espèce — Pour chaque espèce : nombre de mâles et de femelles, répartition par âge avec le poids moyen, mortalité, petits par portée, morts-nés, réussite des accouplements, survie jusqu'au sevrage, races les plus résistantes et meilleures mères."
   },
   {
-   "date": "17/11/2026",
-   "texte": "Essai : seulement les métiers de votre activité — Pendant l'essai, tous les métiers sont ouverts. L'Admin peut maintenant cocher ceux de son entreprise dans Paramètres → À propos (par exemple Immobilier seul) : les écrans des autres métiers disparaissent. Une fois la clé de licence installée, c'est elle qui décide."
+   "date": "23/11/2026",
+   "texte": "Ferme : ventes — Vendez les animaux (à la pièce ou au kilo, d'un lot ou un animal avec fiche), les œufs au plateau, le lait ou d'autres produits. Paiement comptant, en partie ou à crédit (avec le nom du client), encaissement plus tard en un clic et rappel WhatsApp. Les animaux vendus sortent de leur lot, et l'argent arrive dans la Trésorerie."
   }
  ],
  "modules": [
@@ -455,5 +623,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.260.zip"
+ "fichier": "paquets/Gerimo-1.288.zip"
 }
