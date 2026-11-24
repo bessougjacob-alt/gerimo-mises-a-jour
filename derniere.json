@@ -1,18 +1,29 @@
 {
- "version": "1.304",
- "numero": 304,
+ "version": "1.306",
+ "numero": 306,
  "date": "24/11/2026",
  "versions": [
   {
+   "version": "1.306",
+   "date": "24/11/2026",
+   "elements": [
+    {
+     "titre": "Encaissements en couleurs",
+     "apport": "Dans la liste des encaissements, chaque ligne a un cadre de couleur bien visible : jaune pour les locataires qui paient en début de mois, vert pour ceux qui paient en fin de mois (selon leur contrat), rouge pour ceux qui sont en retard aujourd'hui. Une petite légende rappelle les couleurs."
+    }
+   ],
+   "numero": 306
+  },
+  {
    "version": "1.304",
+   "numero": 304,
    "date": "24/11/2026",
    "elements": [
     {
      "titre": "Point de départ des loyers",
      "apport": "Dans Paramètres → Reprise de données, l'Admin choisit le mois à partir duquel Gérimo compte les loyers : les anciennes données restent dans les anciens fichiers. Avant ce mois, plus aucun loyer dû, aucun impayé ni encaissement de loyer, et les cautions et avances des anciens locataires sont considérées comme versées. On peut aussi effacer les dépenses jusqu'à une date. Un aperçu montre tout ce qui sera effacé, une sauvegarde est faite juste avant et le mot de passe Admin est demandé."
     }
-   ],
-   "numero": 304
+   ]
   },
   {
    "version": "1.299",
@@ -443,24 +454,13 @@
      "apport": "Le bouton « Mise à jour » trouve tout seul les nouvelles versions de Gérimo sur Internet : plus besoin de dépôt ni de jeton dans les Paramètres. Chaque version est vérifiée (signature de l'éditeur) avant d'être installée. Sans Internet, la clé USB reste possible."
     }
    ]
-  },
-  {
-   "version": "1.190",
-   "numero": 190,
-   "date": "11/11/2026",
-   "elements": [
-    {
-     "titre": "Propriétaires portant le même nom",
-     "apport": "Quand vous créez un propriétaire dont le nom existe déjà, Gérimo vous demande s'il s'agit de la même personne. Si ce n'est pas le cas, son téléphone (ou sa CNI) le distingue de l'autre dans toutes les listes. La reprise de données ne mélange plus jamais deux personnes du même nom."
-    },
-    {
-     "titre": "Fusionner deux fiches de propriétaire",
-     "apport": "Une même personne enregistrée deux fois ? Le bouton « Fusionner » de la liste des propriétaires regroupe ses biens, mandats, RIB, reversements et pièces jointes sur une seule fiche (Admin, avec son mot de passe)."
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "24/11/2026",
+   "texte": "Encaissements en couleurs — Dans la liste des encaissements, chaque ligne a un cadre de couleur bien visible : jaune pour les locataires qui paient en début de mois, vert pour ceux qui paient en fin de mois (selon leur contrat), rouge pour ceux qui sont en retard aujourd'hui. Une petite légende rappelle les couleurs."
+  },
   {
    "date": "24/11/2026",
    "texte": "Point de départ des loyers — Dans Paramètres → Reprise de données, l'Admin choisit le mois à partir duquel Gérimo compte les loyers : les anciennes données restent dans les anciens fichiers. Avant ce mois, plus aucun loyer dû, aucun impayé ni encaissement de loyer, et les cautions et avances des anciens locataires sont considérées comme versées. On peut aussi effacer les dépenses jusqu'à une date. Un aperçu montre tout ce qui sera effacé, une sauvegarde est faite juste avant et le mot de passe Admin est demandé."
@@ -516,10 +516,6 @@
   {
    "date": "23/11/2026",
    "texte": "Ferme : santé des animaux — L'Admin écrit une fois le programme des vaccins de chaque espèce (exemple : Gumboro à 7 jours). Pour chaque lot, Gérimo calcule les dates, les montre dans l'Agenda et prévient la veille, le jour même et en cas de retard. Un vaccin ou un traitement fait se note en un clic (« C'est fait »). Le produit ne sort du stock que si le flacon est fini : s'il en reste, on laisse la case cochée. Quand il n'y a plus aucun flacon, Gérimo empêche de noter le soin et prévient qu'il faut racheter le produit."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : pesées et courbe de croissance — On pèse quelques animaux et on écrit leur poids total : Gérimo calcule le poids moyen, le compare au poids attendu pour l'âge et dessine la courbe de croissance du lot. Il prévient quand un lot grossit trop lentement. L'Admin peut adapter les poids attendus de chaque espèce."
   }
  ],
  "modules": [
@@ -615,5 +611,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.304.zip"
+ "fichier": "paquets/Gerimo-1.306.zip"
 }
