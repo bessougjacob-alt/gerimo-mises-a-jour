@@ -1,18 +1,33 @@
 {
- "version": "1.293",
- "numero": 293,
- "date": "23/11/2026",
+ "version": "1.299",
+ "numero": 299,
+ "date": "24/11/2026",
  "versions": [
   {
+   "version": "1.299",
+   "date": "24/11/2026",
+   "elements": [
+    {
+     "titre": "Démarrage plus sûr",
+     "apport": "Si Gérimo Pro Serveur est lancé deux fois au même moment (par exemple au démarrage de Windows et par un double-clic), il n'affiche plus le message d'erreur « La base de données n'a pas pu être préparée » : le deuxième lancement attend simplement le premier."
+    },
+    {
+     "titre": "Connexion : un message clair si la page est mal chargée",
+     "apport": "Si la page de connexion ne s'est pas chargée correctement dans le navigateur, Gérimo l'explique en rouge (avec la raison et quoi faire) au lieu de simplement vider les cases. De même, si le mot de passe est bon mais que le navigateur refuse de garder la connexion (cookies bloqués), Gérimo le dit et indique le réglage à changer."
+    }
+   ],
+   "numero": 299
+  },
+  {
    "version": "1.293",
+   "numero": 293,
    "date": "23/11/2026",
    "elements": [
     {
      "titre": "Améliorations et corrections",
      "apport": "Le logiciel est plus fiable et plus agréable."
     }
-   ],
-   "numero": 293
+   ]
   },
   {
    "version": "1.290",
@@ -443,32 +458,17 @@
      "apport": "Le bandeau « Bonjour » de l'accueil ne fait plus défiler que les notifications les plus récentes, à vitesse lente et régulière. Leur nombre se règle dans Paramètres → Réglages → « Bandeau Bonjour de l'accueil » (15 par défaut). La cloche et Gérimo gardent toutes les notifications."
     }
    ]
-  },
-  {
-   "version": "1.185",
-   "numero": 185,
-   "date": "11/11/2026",
-   "elements": [
-    {
-     "titre": "Gérimo dans la barre de droite",
-     "apport": "Le bouton rond de Gérimo, votre assistant, qui flottait en bas à droite de l'écran, est maintenant rangé dans la barre de droite, juste sous le bouton de déconnexion, avec une nouvelle icône (un petit robot dans une bulle) qui ne bouge plus : il ne cache plus rien sur la page."
-    },
-    {
-     "titre": "Modules principaux plus larges",
-     "apport": "Sur l'accueil, les 8 modules principaux s'affichent en deux rangées de 4 cartes plus larges."
-    },
-    {
-     "titre": "Type de logement « À préciser »",
-     "apport": "À la reprise de données, un logement dont on ne connaît pas encore le type (studio, 2 pièces…) peut être importé en « À préciser ». Vous le corrigez plus tard sur la fiche du logement, quand vous avez l'information."
-    },
-    {
-     "titre": "Nouveau contrat de bail",
-     "apport": "Le contrat de bail imprimé reprend le modèle utilisé par les agences : votre logo de part et d'autre du titre encadré, 18 articles (désignation, durée, loyer, dépôt de garantie, avance, résiliation…) et les signatures « Pour le bailleur / Pour le preneur ». La pénalité de retard n'y figure que si elle est activée dans Paramètres, la caution et l'avance seulement si le contrat en prévoit. Les téléphones du gérant, à saisir dans Paramètres → Mon entreprise, s'impriment sous sa signature."
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "24/11/2026",
+   "texte": "Démarrage plus sûr — Si Gérimo Pro Serveur est lancé deux fois au même moment (par exemple au démarrage de Windows et par un double-clic), il n'affiche plus le message d'erreur « La base de données n'a pas pu être préparée » : le deuxième lancement attend simplement le premier."
+  },
+  {
+   "date": "24/11/2026",
+   "texte": "Connexion : un message clair si la page est mal chargée — Si la page de connexion ne s'est pas chargée correctement dans le navigateur, Gérimo l'explique en rouge (avec la raison et quoi faire) au lieu de simplement vider les cases. De même, si le mot de passe est bon mais que le navigateur refuse de garder la connexion (cookies bloqués), Gérimo le dit et indique le réglage à changer."
+  },
   {
    "date": "23/11/2026",
    "texte": "Améliorations et corrections — Le logiciel est plus fiable et plus agréable."
@@ -520,14 +520,6 @@
   {
    "date": "23/11/2026",
    "texte": "Ferme : visites du vétérinaire — Chaque visite est notée avec ce que le vétérinaire a vu et ses conseils, pour un lot ou pour toute la ferme. Son prix, noté par la Caisse ou l'Admin, s'ajoute tout seul aux Dépenses. La fiche de chaque lot montre ses vaccins, ses traitements, sa courbe de croissance et les visites."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : âge des animaux — Gérimo donne l'âge de chaque lot et de chaque animal : âge à l'arrivée, temps passé à la ferme et âge aujourd'hui, écrit simplement (12 jours, 5 mois, 2 ans 3 mois). Pour un animal dont on connaît la date de naissance, l'âge se calcule tout seul."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : fiches techniques des animaux — Chaque animal étiqueté peut avoir sa fiche : n° de boucle ou d'étiquette, race, sexe, parents, génération, état de santé, pesées, caractéristiques particulières (yeux bleus, oreilles tombantes…). Gérimo propose un modèle complet pour chaque espèce : races courantes, cases propres (robe, pelage, cornes…) et repères (âge de mise à la reproduction, gestation, portée, sevrage, poids adulte). L'Admin peut adapter ces modèles."
   }
  ],
  "modules": [
@@ -623,5 +615,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.293.zip"
+ "fichier": "paquets/Gerimo-1.299.zip"
 }
