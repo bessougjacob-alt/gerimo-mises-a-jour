@@ -1,18 +1,29 @@
 {
- "version": "1.306",
- "numero": 306,
+ "version": "1.308",
+ "numero": 308,
  "date": "24/11/2026",
  "versions": [
   {
+   "version": "1.308",
+   "date": "24/11/2026",
+   "elements": [
+    {
+     "titre": "Choisir les mois payés",
+     "apport": "Dans le formulaire d'encaissement, les mois du locataire s'affichent en cases à cocher (avec leur montant et ceux qui sont en retard) : on coche les mois que le locataire paie, et le nombre de mois, le montant et la période se mettent à jour tout seuls. Les mois se suivent toujours, en commençant par le plus ancien non payé."
+    }
+   ],
+   "numero": 308
+  },
+  {
    "version": "1.306",
+   "numero": 306,
    "date": "24/11/2026",
    "elements": [
     {
      "titre": "Encaissements en couleurs",
      "apport": "Dans la liste des encaissements, chaque ligne a un cadre de couleur bien visible : jaune pour les locataires qui paient en début de mois, vert pour ceux qui paient en fin de mois (selon leur contrat), rouge pour ceux qui sont en retard aujourd'hui. Une petite légende rappelle les couleurs."
     }
-   ],
-   "numero": 306
+   ]
   },
   {
    "version": "1.304",
@@ -435,28 +446,13 @@
      "apport": "Chaque article est une tuile avec son stock en gros et en couleur (vert : en stock, orange : presque plus, rouge : plus en stock). En haut, des chiffres clés cliquables montrent ce qu'il faut racheter et les dates limites proches. Un clic sur un article ou un arrivage ouvre une fenêtre avec tout le détail."
     }
    ]
-  },
-  {
-   "version": "1.194",
-   "numero": 194,
-   "date": "11/11/2026",
-   "elements": [
-    {
-     "titre": "Messages groupés",
-     "apport": "Finances → « Messages groupés » : envoyez le même message à plusieurs locataires, ou à tous — rappel de loyer en début de mois, alerte de retard ou annonce écrite par vous (coupure d'eau, fermeture du bureau…). Chaque message est personnalisé (nom, logement, montant) ; Gérimo ouvre WhatsApp pour chacun à tour de rôle et note qui a été prévenu. Vous pouvez aussi télécharger les contacts des locataires pour créer une liste de diffusion WhatsApp."
-    },
-    {
-     "titre": "Ajuster l'écran",
-     "apport": "Sur un grand écran, le bouton « Ajuster l'écran » (menu de gauche, ou Paramètres → À propos) agrandit tout l'affichage — textes, cartes et espacements — à la bonne taille pour cet écran. On peut aussi choisir soi-même le pourcentage. Le réglage est propre à chaque PC. « À propos » indique aussi la taille de l'écran."
-    },
-    {
-     "titre": "Mises à jour par Internet sans réglage",
-     "apport": "Le bouton « Mise à jour » trouve tout seul les nouvelles versions de Gérimo sur Internet : plus besoin de dépôt ni de jeton dans les Paramètres. Chaque version est vérifiée (signature de l'éditeur) avant d'être installée. Sans Internet, la clé USB reste possible."
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "24/11/2026",
+   "texte": "Choisir les mois payés — Dans le formulaire d'encaissement, les mois du locataire s'affichent en cases à cocher (avec leur montant et ceux qui sont en retard) : on coche les mois que le locataire paie, et le nombre de mois, le montant et la période se mettent à jour tout seuls. Les mois se suivent toujours, en commençant par le plus ancien non payé."
+  },
   {
    "date": "24/11/2026",
    "texte": "Encaissements en couleurs — Dans la liste des encaissements, chaque ligne a un cadre de couleur bien visible : jaune pour les locataires qui paient en début de mois, vert pour ceux qui paient en fin de mois (selon leur contrat), rouge pour ceux qui sont en retard aujourd'hui. Une petite légende rappelle les couleurs."
@@ -512,10 +508,6 @@
   {
    "date": "23/11/2026",
    "texte": "Ferme : tous les animaux, pas seulement la volaille — La Ferme suit maintenant toutes les espèces : volailles (chair, pondeuses, traditionnels, pintades, canards), lapins, aulacodes, porcs, moutons, chèvres, bovins et poissons, chacune avec son dessin. L'Admin peut en ajouter d'autres (cailles, escargots…) et retirer celles qu'il n'élève pas, dans « Bâtiments et animaux ». Le suivi du jour montre les bonnes cases selon l'espèce : naissances pour les lapins ou les porcs, œufs pour les pondeuses, lait pour les chèvres et les vaches. Les poulaillers deviennent des bâtiments (poulailler, clapier, porcherie, étable, bassin…)."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : santé des animaux — L'Admin écrit une fois le programme des vaccins de chaque espèce (exemple : Gumboro à 7 jours). Pour chaque lot, Gérimo calcule les dates, les montre dans l'Agenda et prévient la veille, le jour même et en cas de retard. Un vaccin ou un traitement fait se note en un clic (« C'est fait »). Le produit ne sort du stock que si le flacon est fini : s'il en reste, on laisse la case cochée. Quand il n'y a plus aucun flacon, Gérimo empêche de noter le soin et prévient qu'il faut racheter le produit."
   }
  ],
  "modules": [
@@ -611,5 +603,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.306.zip"
+ "fichier": "paquets/Gerimo-1.308.zip"
 }
