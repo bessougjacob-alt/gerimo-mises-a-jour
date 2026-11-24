@@ -1,10 +1,22 @@
 {
- "version": "1.299",
- "numero": 299,
+ "version": "1.304",
+ "numero": 304,
  "date": "24/11/2026",
  "versions": [
   {
+   "version": "1.304",
+   "date": "24/11/2026",
+   "elements": [
+    {
+     "titre": "Point de départ des loyers",
+     "apport": "Dans Paramètres → Reprise de données, l'Admin choisit le mois à partir duquel Gérimo compte les loyers : les anciennes données restent dans les anciens fichiers. Avant ce mois, plus aucun loyer dû, aucun impayé ni encaissement de loyer, et les cautions et avances des anciens locataires sont considérées comme versées. On peut aussi effacer les dépenses jusqu'à une date. Un aperçu montre tout ce qui sera effacé, une sauvegarde est faite juste avant et le mot de passe Admin est demandé."
+    }
+   ],
+   "numero": 304
+  },
+  {
    "version": "1.299",
+   "numero": 299,
    "date": "24/11/2026",
    "elements": [
     {
@@ -15,8 +27,7 @@
      "titre": "Connexion : un message clair si la page est mal chargée",
      "apport": "Si la page de connexion ne s'est pas chargée correctement dans le navigateur, Gérimo l'explique en rouge (avec la raison et quoi faire) au lieu de simplement vider les cases. De même, si le mot de passe est bon mais que le navigateur refuse de garder la connexion (cookies bloqués), Gérimo le dit et indique le réglage à changer."
     }
-   ],
-   "numero": 299
+   ]
   },
   {
    "version": "1.293",
@@ -447,20 +458,13 @@
      "apport": "Une même personne enregistrée deux fois ? Le bouton « Fusionner » de la liste des propriétaires regroupe ses biens, mandats, RIB, reversements et pièces jointes sur une seule fiche (Admin, avec son mot de passe)."
     }
    ]
-  },
-  {
-   "version": "1.187",
-   "numero": 187,
-   "date": "11/11/2026",
-   "elements": [
-    {
-     "titre": "Bandeau « Bonjour » plus calme",
-     "apport": "Le bandeau « Bonjour » de l'accueil ne fait plus défiler que les notifications les plus récentes, à vitesse lente et régulière. Leur nombre se règle dans Paramètres → Réglages → « Bandeau Bonjour de l'accueil » (15 par défaut). La cloche et Gérimo gardent toutes les notifications."
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "24/11/2026",
+   "texte": "Point de départ des loyers — Dans Paramètres → Reprise de données, l'Admin choisit le mois à partir duquel Gérimo compte les loyers : les anciennes données restent dans les anciens fichiers. Avant ce mois, plus aucun loyer dû, aucun impayé ni encaissement de loyer, et les cautions et avances des anciens locataires sont considérées comme versées. On peut aussi effacer les dépenses jusqu'à une date. Un aperçu montre tout ce qui sera effacé, une sauvegarde est faite juste avant et le mot de passe Admin est demandé."
+  },
   {
    "date": "24/11/2026",
    "texte": "Démarrage plus sûr — Si Gérimo Pro Serveur est lancé deux fois au même moment (par exemple au démarrage de Windows et par un double-clic), il n'affiche plus le message d'erreur « La base de données n'a pas pu être préparée » : le deuxième lancement attend simplement le premier."
@@ -516,10 +520,6 @@
   {
    "date": "23/11/2026",
    "texte": "Ferme : pesées et courbe de croissance — On pèse quelques animaux et on écrit leur poids total : Gérimo calcule le poids moyen, le compare au poids attendu pour l'âge et dessine la courbe de croissance du lot. Il prévient quand un lot grossit trop lentement. L'Admin peut adapter les poids attendus de chaque espèce."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : visites du vétérinaire — Chaque visite est notée avec ce que le vétérinaire a vu et ses conseils, pour un lot ou pour toute la ferme. Son prix, noté par la Caisse ou l'Admin, s'ajoute tout seul aux Dépenses. La fiche de chaque lot montre ses vaccins, ses traitements, sa courbe de croissance et les visites."
   }
  ],
  "modules": [
@@ -615,5 +615,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.299.zip"
+ "fichier": "paquets/Gerimo-1.304.zip"
 }
