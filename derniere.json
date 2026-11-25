@@ -1,18 +1,53 @@
 {
- "version": "1.310",
- "numero": 310,
+ "version": "1.315",
+ "numero": 315,
  "date": "25/11/2026",
  "versions": [
   {
+   "version": "1.315",
+   "date": "25/11/2026",
+   "elements": [
+    {
+     "titre": "Appareil photo dans Gérimo",
+     "apport": "Sur Android, le bouton « Prendre une photo » ouvre maintenant l'appareil photo à l'intérieur de Gérimo : l'application ne se ferme plus. On prend plusieurs photos d'affilée (un appui sur une petite photo la retire), puis « Valider » range tout dans la pièce choisie. Une lampe aide dans les pièces sombres. Sur ordinateur aussi, on peut prendre plusieurs photos avant de valider. (Installer la nouvelle application Android.)"
+    },
+    {
+     "titre": "Clés, porte par porte",
+     "apport": "Dans l'état des lieux, chaque porte a sa ligne (intérieur ou extérieur, clé, badge, télécommande ou cadenas) : on note le nombre de clés du trousseau complet et le nombre remis, et Gérimo affiche tout seul « Complet » ou « Incomplet — il manque 1 ». À la sortie, les clés remises à l'entrée sont rappelées, et celles qui ne sont pas rendues sont signalées. Le PDF montre le tableau des clés."
+    },
+    {
+     "titre": "Signatures sur l'aperçu de l'état des lieux",
+     "apport": "Une fois les deux signatures dessinées, le bouton « Aperçu PDF » montre déjà le document avec les signatures. Après « Valider les signatures », c'est la copie signée qui s'ouvre, jamais l'ancien brouillon."
+    },
+    {
+     "titre": "État des lieux par WhatsApp",
+     "apport": "Un bouton WhatsApp, à côté de « Aperçu PDF », envoie l'état des lieux signé au locataire. Avec la nouvelle application Android, le PDF part directement dans sa conversation WhatsApp : il ne reste qu'à appuyer sur Envoyer."
+    },
+    {
+     "titre": "Chaque logement garde son vrai plan",
+     "apport": "Pour le locataire suivant, l'état des lieux d'entrée reprend les pièces, les portes, le nombre de clés et les numéros des compteurs du dernier état des lieux signé de ce logement (pièces renommées ou ajoutées comprises). Il ne reste qu'à noter l'état du jour."
+    },
+    {
+     "titre": "Plus de filigrane « BROUILLON »",
+     "apport": "Le PDF de l'état des lieux n'a plus le grand mot « BROUILLON » en travers. Tant qu'il n'est pas validé, une petite mention discrète en haut à droite l'indique."
+    },
+    {
+     "titre": "Noms des chambres",
+     "apport": "Dans l'état des lieux, les chambres s'appellent « Chambre principale », « Chambre secondaire », puis « Chambre 3 », « Chambre 4 »… : en ajoutant une chambre, le numéro suivant se met tout seul."
+    }
+   ],
+   "numero": 315
+  },
+  {
    "version": "1.310",
+   "numero": 310,
    "date": "25/11/2026",
    "elements": [
     {
      "titre": "Remise de la pénalité pour tous ceux qui encaissent",
      "apport": "La case « Remettre la pénalité de retard » du formulaire d'encaissement est maintenant proposée aussi à la Caisse et au Gestionnaire, pas seulement à l'Admin. Chaque remise reste notée sur l'encaissement avec le nom de la personne qui l'a accordée."
     }
-   ],
-   "numero": 310
+   ]
   },
   {
    "version": "1.308",
@@ -363,76 +398,37 @@
      "apport": "Le Résultat (Argent → Résultat et TVA) compte maintenant les ventes de la boutique, le coût des marchandises vendues et les pertes (casse, périmés…), ainsi que les commissions Mobile Money reçues. Si l'entreprise est assujettie à la TVA, les ventes et les commissions Mobile Money sont comptées TVA comprise."
     }
    ]
-  },
-  {
-   "version": "1.223",
-   "numero": 223,
-   "date": "14/11/2026",
-   "elements": [
-    {
-     "titre": "Carte de visite : format de la maquette indiqué",
-     "apport": "À côté du bouton « Uploader vCard », Gérimo indique le format attendu : un PDF (ou un .ai compatible PDF) de 85 × 55 mm, de préférence avec 3 mm de fond perdu, 1 ou 2 pages, avec le nom, la fonction et les téléphones écrits en texte. Si la maquette envoyée n'a pas la bonne taille, Gérimo prévient qu'elle risque d'être mal cadrée à l'impression."
-    },
-    {
-     "titre": "Menu rangé en espaces",
-     "apport": "Le menu est plus court : les écrans sont rangés par espaces, avec leurs rubriques en tuiles à gauche (comme Paramètres). Patrimoine : biens, propriétaires, achats et ventes de biens, problèmes. Locations : contrats, locataires, courte durée, états des lieux, courriers. Loyers : encaissements, impayés, historique, messages groupés. Argent : trésorerie, dépenses, reversements, résultat et TVA. Rapports : tous les chiffres. Agenda : rendez-vous, demandes de clients, réseaux sociaux. Selon votre licence : Boutique et Mobile Money. Rien n'a disparu : tout est au même endroit qu'avant, dans son espace."
-    },
-    {
-     "titre": "Actions rapides plus directes",
-     "apport": "Sur l'accueil, les gestes de tous les jours sont à un seul toucher : Encaisser un loyer, Caisse, Guichet, Dépense (selon votre licence). Les menus Ajouter, Imprimer et Exporter sont rangés par métier. Pour modifier ou supprimer, cliquez simplement sur la ligne : sa fiche s'ouvre avec les boutons."
-    },
-    {
-     "titre": "Scanner avec le téléphone",
-     "apport": "À la caisse et dans le stock, le bouton 📷 lit le code-barres d'un article avec l'appareil photo du téléphone : l'article va directement dans le panier (ou sa fiche s'ouvre). Sans douchette, sans rien installer : si la vidéo n'est pas possible, on prend simplement une photo du code-barres."
-    },
-    {
-     "titre": "Caisse sur téléphone",
-     "apport": "Sur téléphone, le total et le bouton « Encaisser » restent toujours en bas de l'écran pendant qu'on choisit les articles ; « Voir le ticket » déplie le panier."
-    },
-    {
-     "titre": "Caisse et Mobile Money sans réseau",
-     "apport": "Sur le téléphone, quand le serveur ne répond pas, on continue à vendre au comptoir (bon provisoire), à créer un client, à encaisser un client à crédit, et à servir au guichet Mobile Money. Le stock et les soldes affichés se mettent à jour tout de suite ; tout part au serveur à son retour, à la date réelle de l'opération."
-    },
-    {
-     "titre": "Mobile Money relié à la Trésorerie",
-     "apport": "Un apport d'espèces au kiosque, une sortie d'espèces, un rechargement de puce payé par la banque ou une commission versée par l'opérateur peuvent être reliés à un compte de l'entreprise : ils apparaissent dans la Trésorerie et dans l'export comptable. La Trésorerie montre aussi l'argent de chaque kiosque (espèces et puces), et le rapport des commissions compare ce qui était attendu à ce qui a été reçu."
-    },
-    {
-     "titre": "Nouveau métier : Agence Mobile Money",
-     "apport": "Pour les agences Orange Money, MTN MoMo, Moov Money et Wave : au guichet, on touche l'opérateur, puis Dépôt ou Retrait, le montant, et c'est enregistré. Le solde de chaque puce et les espèces en caisse restent affichés en grand, avec une alerte quand ils deviennent bas. Rechargement des puces, apport ou sortie d'espèces, clôture du soir avec les écarts, commissions calculées selon le barème de chaque opérateur, plusieurs kiosques avec leurs agents. Le métier s'ouvre par la licence."
-    },
-    {
-     "titre": "Commerce : bilan de la boutique",
-     "apport": "Nouvel écran « Bilan de la boutique » (Admin, Caisse, Comptable) : pour aujourd'hui, le mois, le mois dernier ou l'année, le chiffre d'affaires, le bénéfice, les pertes, ce que les clients doivent, ce que je dois aux fournisseurs et la valeur du stock, en grand. En dessous : les ventes jour par jour, les meilleurs articles, ceux qui restent en stock sans se vendre, les ventes par vendeur et par mode de paiement. Le tout s'imprime en PDF."
-    },
-    {
-     "titre": "Commerce : ticket, facture et reçu",
-     "apport": "Après chaque vente : le ticket de caisse au format de votre imprimante (58 mm, 80 mm ou A4, à choisir dans Paramètres → Réglages), la facture A4 si le client la demande, ou le ticket envoyé par WhatsApp. Chaque paiement d'un client à crédit a son reçu. Les clients qui doivent de l'argent apparaissent dans les notifications."
-    },
-    {
-     "titre": "Fenêtres plus légères",
-     "apport": "Le rappel des raccourcis clavier n'apparaît plus sous chaque formulaire. La liste complète des raccourcis est rangée dans Paramètres → Assistant → « Raccourcis clavier »."
-    },
-    {
-     "titre": "Commerce : la caisse au comptoir",
-     "apport": "Nouvel écran « Ventes & caisse », pensé comme une vraie caisse : on touche les articles (ou on les scanne), ils s'ajoutent au ticket, le total s'affiche en grand. Un seul bouton « Encaisser », puis « Compte juste » ou le billet donné : la monnaie à rendre s'affiche en grand. Espèces ou Mobile Money d'un toucher, prix détail ou gros, remise permise jusqu'au pourcentage choisi par l'Admin. Vente à crédit possible pour un client enregistré, avec un plafond. Chaque vente sort du stock et entre dans la Trésorerie ; l'historique des ventes et les clients qui doivent de l'argent s'ouvrent d'un clic."
-    },
-    {
-     "titre": "Tout s'ouvre d'un clic",
-     "apport": "Partout où Gérimo affiche une liste — encaissements, impayés, historique des paiements, dépenses, achats et ventes, trésorerie (comptes, mouvements, transferts, arrêtés), reversements, séjours, agenda, demandes de clients, courriers, états des lieux, problèmes signalés, fournisseurs, comptes utilisateurs, journal, corbeille, sauvegardes — chaque ligne porte la couleur de son état et s'ouvre d'un clic dans une fiche claire, avec l'essentiel en grand et les boutons utiles."
-    },
-    {
-     "titre": "Rubriques en tuiles, comme dans Paramètres",
-     "apport": "Trésorerie, Stock, Rapports et Agenda présentent leurs rubriques comme Paramètres : une colonne de tuiles avec une icône à gauche, et le nom de la rubrique en grand titre. On voit tout de suite où l'on est et où aller."
-    },
-    {
-     "titre": "Commerce : sorties de stock et inventaire",
-     "apport": "Un produit cassé, périmé, disparu ou utilisé par la boutique ? « Sortie de stock » le retire en notant pourquoi ; l'Admin voit ce que ces pertes ont coûté dans le mois. « Faire l'inventaire » : on tape ce qu'on compte (par carton et à l'unité), Gérimo montre tout de suite les écarts ; le magasinier enregistre, l'Admin valide et le stock est corrigé. Les ruptures, les produits presque épuisés, les dates limites proches et les arrivages sans prix s'affichent dans les notifications."
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "25/11/2026",
+   "texte": "Appareil photo dans Gérimo — Sur Android, le bouton « Prendre une photo » ouvre maintenant l'appareil photo à l'intérieur de Gérimo : l'application ne se ferme plus. On prend plusieurs photos d'affilée (un appui sur une petite photo la retire), puis « Valider » range tout dans la pièce choisie. Une lampe aide dans les pièces sombres. Sur ordinateur aussi, on peut prendre plusieurs photos avant de valider. (Installer la nouvelle application Android.)"
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Clés, porte par porte — Dans l'état des lieux, chaque porte a sa ligne (intérieur ou extérieur, clé, badge, télécommande ou cadenas) : on note le nombre de clés du trousseau complet et le nombre remis, et Gérimo affiche tout seul « Complet » ou « Incomplet — il manque 1 ». À la sortie, les clés remises à l'entrée sont rappelées, et celles qui ne sont pas rendues sont signalées. Le PDF montre le tableau des clés."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Signatures sur l'aperçu de l'état des lieux — Une fois les deux signatures dessinées, le bouton « Aperçu PDF » montre déjà le document avec les signatures. Après « Valider les signatures », c'est la copie signée qui s'ouvre, jamais l'ancien brouillon."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "État des lieux par WhatsApp — Un bouton WhatsApp, à côté de « Aperçu PDF », envoie l'état des lieux signé au locataire. Avec la nouvelle application Android, le PDF part directement dans sa conversation WhatsApp : il ne reste qu'à appuyer sur Envoyer."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Chaque logement garde son vrai plan — Pour le locataire suivant, l'état des lieux d'entrée reprend les pièces, les portes, le nombre de clés et les numéros des compteurs du dernier état des lieux signé de ce logement (pièces renommées ou ajoutées comprises). Il ne reste qu'à noter l'état du jour."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Plus de filigrane « BROUILLON » — Le PDF de l'état des lieux n'a plus le grand mot « BROUILLON » en travers. Tant qu'il n'est pas validé, une petite mention discrète en haut à droite l'indique."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Noms des chambres — Dans l'état des lieux, les chambres s'appellent « Chambre principale », « Chambre secondaire », puis « Chambre 3 », « Chambre 4 »… : en ajoutant une chambre, le numéro suivant se met tout seul."
+  },
   {
    "date": "25/11/2026",
    "texte": "Remise de la pénalité pour tous ceux qui encaissent — La case « Remettre la pénalité de retard » du formulaire d'encaissement est maintenant proposée aussi à la Caisse et au Gestionnaire, pas seulement à l'Admin. Chaque remise reste notée sur l'encaissement avec le nom de la personne qui l'a accordée."
@@ -464,34 +460,6 @@
   {
    "date": "23/11/2026",
    "texte": "Améliorations et corrections — Le logiciel est plus fiable et plus agréable."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Quittance plus courte — La quittance de loyer n’imprime plus le paragraphe « … déclare avoir reçu …, sous réserve de tous droits » : elle commence directement par le locataire, le logement, la période et la somme."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Nouveau métier : Ferme (volaille) — Gérimo suit maintenant un élevage de volaille : poulets de chair, poules pondeuses, poulets traditionnels et pintades. Chaque arrivage de poussins devient une « lot » rangée dans son poulailler. Chaque jour, le chef de ferme note en une seule fois, pour tous les lots, les morts (et leur cause), les œufs ramassés et l'aliment donné. Gérimo affiche en grand les sujets vivants, l'âge, la mortalité, les œufs du jour et le taux de ponte, et prévient quand il y a beaucoup de morts ou quand le suivi d'hier a été oublié. Le chef de ferme ne voit pas l'argent : le prix des poussins est noté par la Caisse ou l'Admin."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "La Ferme a son propre style — Couleurs de la ferme (paille, jaune poussin, vert prairie), un dessin pour chaque volaille (poulet de chair, pondeuse, poulet traditionnel, pintade), des tableaux clairs et des mots simples. Dans le suivi du jour, on coche les volailles à suivre ; une fois enregistré, le suivi s'affiche en résumé et ne se modifie plus par erreur (bouton « Modifier ce suivi » pour le corriger)."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Tout Gérimo aux couleurs de la ferme — Chez un éleveur (licence Ferme seule), tout le logiciel prend les couleurs de la ferme : accueil, menu, dépenses, trésorerie, agenda et paramètres. L'accueil montre « La ferme aujourd'hui » : volailles en vie, œufs ramassés, morts de la semaine et suivis à faire. Le module Ferme a son dessin (une ferme avec sa poule et son poussin), et les morts sont représentés par un poulet couché sur le dos."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : stock des aliments et produits — La Ferme suit le stock des aliments, vaccins, médicaments et vitamines, matériel et litière, chacun avec son dessin. L'aliment s'achète en sacs et se compte en kg (1 250 kg = 25 sacs). L'aliment noté dans le suivi du jour sort tout seul du stock : il suffit de choisir l'aliment sur la ligne du lot. On note aussi ce qui est utilisé ou perdu (sacs mouillés, rats…), et l'Admin corrige le stock après un comptage. Gérimo prévient quand un produit est presque fini."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : achats et ce que je dois aux fournisseurs — Chaque achat (aliments, vaccins…) augmente le stock tout de suite. Il peut être payé en entier, en partie ou à crédit : « Ce que je dois » montre ce qui reste à payer à chaque fournisseur, et on paie en un clic. Le chef de ferme peut noter ce qui est arrivé sans les prix ; la Caisse les complète. Les paiements apparaissent dans la Trésorerie, la comptabilité et le résultat."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Couleurs plus contrastées chez un éleveur — Le menu et le bandeau « Bonjour » prennent le jaune clair et le marron du logo Gérimo. Les textes sont plus foncés, et les barres de recherche ont un vrai cadre bien visible."
   }
  ],
  "modules": [
@@ -587,5 +555,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.310.zip"
+ "fichier": "paquets/Gerimo-1.315.zip"
 }
