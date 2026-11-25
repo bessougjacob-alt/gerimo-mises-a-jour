@@ -1,18 +1,29 @@
 {
- "version": "1.308",
- "numero": 308,
- "date": "24/11/2026",
+ "version": "1.310",
+ "numero": 310,
+ "date": "25/11/2026",
  "versions": [
   {
+   "version": "1.310",
+   "date": "25/11/2026",
+   "elements": [
+    {
+     "titre": "Remise de la pénalité pour tous ceux qui encaissent",
+     "apport": "La case « Remettre la pénalité de retard » du formulaire d'encaissement est maintenant proposée aussi à la Caisse et au Gestionnaire, pas seulement à l'Admin. Chaque remise reste notée sur l'encaissement avec le nom de la personne qui l'a accordée."
+    }
+   ],
+   "numero": 310
+  },
+  {
    "version": "1.308",
+   "numero": 308,
    "date": "24/11/2026",
    "elements": [
     {
      "titre": "Choisir les mois payés",
      "apport": "Dans le formulaire d'encaissement, les mois du locataire s'affichent en cases à cocher (avec leur montant et ceux qui sont en retard) : on coche les mois que le locataire paie, et le nombre de mois, le montant et la période se mettent à jour tout seuls. Les mois se suivent toujours, en commençant par le plus ancien non payé."
     }
-   ],
-   "numero": 308
+   ]
   },
   {
    "version": "1.306",
@@ -419,36 +430,13 @@
      "apport": "Un produit cassé, périmé, disparu ou utilisé par la boutique ? « Sortie de stock » le retire en notant pourquoi ; l'Admin voit ce que ces pertes ont coûté dans le mois. « Faire l'inventaire » : on tape ce qu'on compte (par carton et à l'unité), Gérimo montre tout de suite les écarts ; le magasinier enregistre, l'Admin valide et le stock est corrigé. Les ruptures, les produits presque épuisés, les dates limites proches et les arrivages sans prix s'affichent dans les notifications."
     }
    ]
-  },
-  {
-   "version": "1.204",
-   "numero": 204,
-   "date": "13/11/2026",
-   "elements": [
-    {
-     "titre": "Fiches détaillées : locataires, contrats, biens, propriétaires",
-     "apport": "En haut de chaque liste, des chiffres clés montrent l'essentiel : locataires en retard, à risque, départs prévus, logements libres… Un clic sur un chiffre n'affiche que les lignes concernées. Chaque ligne porte la couleur de son état (vert : à jour, orange : en retard, rouge : à risque) et s'ouvre d'un clic dans une fiche claire : ce qui reste à payer, le prochain loyer, les derniers paiements, les logements d'un bien, les biens d'un propriétaire, avec les boutons Encaisser, WhatsApp et Modifier."
-    },
-    {
-     "titre": "Métiers de la licence",
-     "apport": "Gérimo peut maintenant servir à d'autres métiers que l'immobilier. Paramètres → À propos indique les métiers ouverts par votre licence ; les écrans d'un métier non compris dans la licence n'apparaissent pas. Pour les clients actuels, rien ne change : l'immobilier reste ouvert."
-    },
-    {
-     "titre": "Commerce : articles et fournisseurs",
-     "apport": "Pour les boutiques (métier Commerce) : nouvel écran « Stock & articles ». Chaque article a un prix détail et un prix gros, une vente possible par lot (à la bouteille ou au carton de 24), un code-barres, et Gérimo peut prévenir quand il n'en reste presque plus. Le bénéfice s'affiche pour l'Admin et la Caisse, jamais pour le magasinier. Un onglet Fournisseurs garde leurs coordonnées."
-    },
-    {
-     "titre": "Commerce : arrivages et ce que je dois aux fournisseurs",
-     "apport": "Quand un fournisseur livre, le magasinier note ce qui est arrivé (à la pièce ou par carton, avec la date limite) : le stock monte tout de suite. La Caisse met ensuite les prix de la facture et note ce qui est payé ; l'onglet « Ce que je dois » montre le reste dû à chaque fournisseur, et chaque paiement apparaît dans la Trésorerie."
-    },
-    {
-     "titre": "Commerce : l'essentiel en un coup d'œil",
-     "apport": "Chaque article est une tuile avec son stock en gros et en couleur (vert : en stock, orange : presque plus, rouge : plus en stock). En haut, des chiffres clés cliquables montrent ce qu'il faut racheter et les dates limites proches. Un clic sur un article ou un arrivage ouvre une fenêtre avec tout le détail."
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "25/11/2026",
+   "texte": "Remise de la pénalité pour tous ceux qui encaissent — La case « Remettre la pénalité de retard » du formulaire d'encaissement est maintenant proposée aussi à la Caisse et au Gestionnaire, pas seulement à l'Admin. Chaque remise reste notée sur l'encaissement avec le nom de la personne qui l'a accordée."
+  },
   {
    "date": "24/11/2026",
    "texte": "Choisir les mois payés — Dans le formulaire d'encaissement, les mois du locataire s'affichent en cases à cocher (avec leur montant et ceux qui sont en retard) : on coche les mois que le locataire paie, et le nombre de mois, le montant et la période se mettent à jour tout seuls. Les mois se suivent toujours, en commençant par le plus ancien non payé."
@@ -504,10 +492,6 @@
   {
    "date": "23/11/2026",
    "texte": "Couleurs plus contrastées chez un éleveur — Le menu et le bandeau « Bonjour » prennent le jaune clair et le marron du logo Gérimo. Les textes sont plus foncés, et les barres de recherche ont un vrai cadre bien visible."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Ferme : tous les animaux, pas seulement la volaille — La Ferme suit maintenant toutes les espèces : volailles (chair, pondeuses, traditionnels, pintades, canards), lapins, aulacodes, porcs, moutons, chèvres, bovins et poissons, chacune avec son dessin. L'Admin peut en ajouter d'autres (cailles, escargots…) et retirer celles qu'il n'élève pas, dans « Bâtiments et animaux ». Le suivi du jour montre les bonnes cases selon l'espèce : naissances pour les lapins ou les porcs, œufs pour les pondeuses, lait pour les chèvres et les vaches. Les poulaillers deviennent des bâtiments (poulailler, clapier, porcherie, étable, bassin…)."
   }
  ],
  "modules": [
@@ -603,5 +587,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.308.zip"
+ "fichier": "paquets/Gerimo-1.310.zip"
 }
