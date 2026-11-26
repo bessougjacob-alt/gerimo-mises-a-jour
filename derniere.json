@@ -1,12 +1,28 @@
 {
- "version": "1.315",
- "numero": 315,
- "date": "25/11/2026",
+ "version": "1.317",
+ "numero": 317,
+ "date": "26/11/2026",
  "versions": [
   {
+   "version": "1.317",
+   "date": "26/11/2026",
+   "elements": [
+    {
+     "titre": "Améliorations et corrections",
+     "apport": "Le logiciel est plus fiable et plus agréable."
+    }
+   ],
+   "numero": 317
+  },
+  {
    "version": "1.315",
+   "numero": 315,
    "date": "25/11/2026",
    "elements": [
+    {
+     "titre": "Connexion plus simple",
+     "apport": "Plus besoin de choisir son profil (Admin, Gestionnaire, Caisse, Comptable) : on tape seulement son identifiant et son mot de passe, et Gérimo ouvre les écrans de son profil. Un message d'accueil rappelle le profil ouvert. Un œil permet d'afficher le mot de passe pendant qu'on le tape. Sous le nom de l'entreprise, la mention suit le métier : « Gestion immobilière », « Gestion de boutique »… ou « Logiciel de gestion » avec la liste des métiers quand il y en a plusieurs."
+    },
     {
      "titre": "Appareil photo dans Gérimo",
      "apport": "Sur Android, le bouton « Prendre une photo » ouvre maintenant l'appareil photo à l'intérieur de Gérimo : l'application ne se ferme plus. On prend plusieurs photos d'affilée (un appui sur une petite photo la retire), puis « Valider » range tout dans la pièce choisie. Une lampe aide dans les pièces sombres. Sur ordinateur aussi, on peut prendre plusieurs photos avant de valider. (Installer la nouvelle application Android.)"
@@ -35,8 +51,7 @@
      "titre": "Noms des chambres",
      "apport": "Dans l'état des lieux, les chambres s'appellent « Chambre principale », « Chambre secondaire », puis « Chambre 3 », « Chambre 4 »… : en ajoutant une chambre, le numéro suivant se met tout seul."
     }
-   ],
-   "numero": 315
+   ]
   },
   {
    "version": "1.310",
@@ -371,36 +386,17 @@
      "apport": "Si votre entreprise n'a qu'un seul métier (l'immobilier par exemple), l'accueil et le menu de gauche montrent de nouveau chaque écran séparément : Propriétaires, Biens, Contrats, Locataires, Loyers, Dépenses… Chaque écran porte alors le nom de son module, avec ses propres rubriques : Dépenses seules dans Dépenses, Trésorerie avec ses soldes, ses entrées et sorties et ses reversements, Résultat et TVA dans les Rapports. Si elle en a plusieurs, ils restent regroupés par espace pour ne pas surcharger l'écran."
     }
    ]
-  },
-  {
-   "version": "1.235",
-   "numero": 235,
-   "date": "17/11/2026",
-   "elements": [
-    {
-     "titre": "Écrans plus aérés",
-     "apport": "Sur ordinateur et sur téléphone, l'écriture est un peu plus petite et les cartes ont plus d'espace, à l'intérieur comme entre elles : les lignes des listes sont plus hautes et bien séparées, les formulaires et Paramètres sont plus espacés : les écrans sont plus clairs et moins chargés. Les cartes n'ont plus de bord coloré : l'état se lit à la couleur des chiffres et des étiquettes."
-    },
-    {
-     "titre": "Essai : seulement les métiers de votre activité",
-     "apport": "Pendant l'essai, tous les métiers sont ouverts. L'Admin peut maintenant cocher ceux de son entreprise dans Paramètres → À propos (par exemple Immobilier seul) : les écrans des autres métiers disparaissent. Une fois la clé de licence installée, c'est elle qui décide."
-    },
-    {
-     "titre": "Petites corrections d'affichage",
-     "apport": "Le guichet Mobile Money affiche toujours son propre titre, même ouvert juste après un rapport. Sous la caisse et le guichet, plus de cadre vert vide avant la première opération. Dans Messages groupés, la case « Votre message » n'apparaît plus que pour une annonce à écrire. Sur téléphone, à la clôture du soir Mobile Money, les montants ne sont plus coupés sur deux lignes."
-    },
-    {
-     "titre": "Ventes sans réseau : argent à remettre à la caisse",
-     "apport": "Quand le magasinier (ou un autre vendeur) vend ou encaisse un client à crédit sans réseau, l'argent reçu apparaît pour la Caisse en haut de l'onglet « Ventes » de la boutique : « Argent reçu » d'un clic quand il lui remet la somme, sans rien ressaisir (noté au journal)."
-    },
-    {
-     "titre": "Résultat et TVA : boutique et Mobile Money compris",
-     "apport": "Le Résultat (Argent → Résultat et TVA) compte maintenant les ventes de la boutique, le coût des marchandises vendues et les pertes (casse, périmés…), ainsi que les commissions Mobile Money reçues. Si l'entreprise est assujettie à la TVA, les ventes et les commissions Mobile Money sont comptées TVA comprise."
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "26/11/2026",
+   "texte": "Améliorations et corrections — Le logiciel est plus fiable et plus agréable."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Connexion plus simple — Plus besoin de choisir son profil (Admin, Gestionnaire, Caisse, Comptable) : on tape seulement son identifiant et son mot de passe, et Gérimo ouvre les écrans de son profil. Un message d'accueil rappelle le profil ouvert. Un œil permet d'afficher le mot de passe pendant qu'on le tape. Sous le nom de l'entreprise, la mention suit le métier : « Gestion immobilière », « Gestion de boutique »… ou « Logiciel de gestion » avec la liste des métiers quand il y en a plusieurs."
+  },
   {
    "date": "25/11/2026",
    "texte": "Appareil photo dans Gérimo — Sur Android, le bouton « Prendre une photo » ouvre maintenant l'appareil photo à l'intérieur de Gérimo : l'application ne se ferme plus. On prend plusieurs photos d'affilée (un appui sur une petite photo la retire), puis « Valider » range tout dans la pièce choisie. Une lampe aide dans les pièces sombres. Sur ordinateur aussi, on peut prendre plusieurs photos avant de valider. (Installer la nouvelle application Android.)"
@@ -452,14 +448,6 @@
   {
    "date": "24/11/2026",
    "texte": "Connexion : un message clair si la page est mal chargée — Si la page de connexion ne s'est pas chargée correctement dans le navigateur, Gérimo l'explique en rouge (avec la raison et quoi faire) au lieu de simplement vider les cases. De même, si le mot de passe est bon mais que le navigateur refuse de garder la connexion (cookies bloqués), Gérimo le dit et indique le réglage à changer."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Améliorations et corrections — Le logiciel est plus fiable et plus agréable."
-  },
-  {
-   "date": "23/11/2026",
-   "texte": "Améliorations et corrections — Le logiciel est plus fiable et plus agréable."
   }
  ],
  "modules": [
@@ -555,5 +543,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.315.zip"
+ "fichier": "paquets/Gerimo-1.317.zip"
 }
