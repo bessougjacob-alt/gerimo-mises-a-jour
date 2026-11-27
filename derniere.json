@@ -1,24 +1,83 @@
 {
- "version": "1.317",
- "numero": 317,
- "date": "26/11/2026",
+ "version": "1.325",
+ "numero": 325,
+ "date": "27/11/2026",
  "versions": [
   {
-   "version": "1.317",
-   "date": "26/11/2026",
+   "version": "1.325",
+   "date": "27/11/2026",
    "elements": [
     {
      "titre": "Améliorations et corrections",
      "apport": "Le logiciel est plus fiable et plus agréable."
     }
    ],
-   "numero": 317
+   "numero": 325
+  },
+  {
+   "version": "1.317",
+   "numero": 317,
+   "date": "26/11/2026",
+   "elements": [
+    {
+     "titre": "Améliorations et corrections",
+     "apport": "Le logiciel est plus fiable et plus agréable."
+    }
+   ]
   },
   {
    "version": "1.315",
    "numero": 315,
    "date": "25/11/2026",
    "elements": [
+    {
+     "titre": "Formulaires plus lisibles",
+     "apport": "Le champ dans lequel on écrit est entouré d'un contour bien plus épais. Les montants (loyer, caution, avance, prix…) s'écrivent en gras et en terracotta. Dans le contrat : « Loyer payé en » à côté du montant du loyer, caution et avance sur la même ligne, et « Statut du contrat » avec « Date du jour » en dernier."
+    },
+    {
+     "titre": "Relancer tous les retards",
+     "apport": "Dans Loyers, le bouton « Relancer les retards (n) » prépare d'un coup les messages WhatsApp de tous les locataires en retard : il ne reste qu'à appuyer sur Envoyer pour chacun, l'un après l'autre."
+    },
+    {
+     "titre": "Récapitulatif du matin",
+     "apport": "À la première ouverture de la journée, une fenêtre résume ce qui vous attend : loyers attendus dans les 5 jours, retards (avec un bouton pour relancer), contrats qui se terminent bientôt, états des lieux à faire. Une ligne touchée mène directement au bon écran."
+    },
+    {
+     "titre": "Recherche par téléphone",
+     "apport": "Tapez le numéro d'un locataire dans la barre de recherche : sa fiche rapide s'affiche en tête (logement, loyer, ce qu'il doit ou « À jour »), avec les boutons Encaisser, Voir le contrat et WhatsApp."
+    },
+    {
+     "titre": "Photo sur l'élément abîmé",
+     "apport": "Dans l'état des lieux, chaque élément (robinet, carrelage, porte…) a son propre appareil photo. La photo s'affiche sous la ligne de l'élément, et le PDF l'imprime juste sous la ligne concernée."
+    },
+    {
+     "titre": "Photos d'entrée et de sortie côte à côte",
+     "apport": "À l'état des lieux de sortie, les photos prises à l'entrée s'affichent à côté de celles de la sortie, à l'écran comme dans le PDF : on voit d'un coup d'œil ce qui s'est abîmé."
+    },
+    {
+     "titre": "Travaux à prévoir après un départ",
+     "apport": "À la sortie, Gérimo dresse la liste de ce qui s'est abîmé et des clés non rendues. On note un coût estimé pour chaque réparation (total en bas, repris dans le PDF), et le bouton « Dépense » prépare la dépense de réparation déjà remplie."
+    },
+    {
+     "titre": "Erreurs sous le bon champ",
+     "apport": "Quand une saisie ne va pas, le message s'affiche en rouge juste sous le champ concerné, qui est entouré de rouge ; l'écran va directement dessus. Le rouge disparaît dès qu'on corrige."
+    },
+    {
+     "titre": "Champs obligatoires repérés",
+     "apport": "Un petit point terracotta après le titre signale les champs à remplir obligatoirement."
+    },
+    {
+     "titre": "Montants faciles à lire",
+     "apport": "En tapant un montant, les milliers se séparent tout seuls : 1250000 devient 1 250 000."
+    },
+    {
+     "titre": "Couleurs plus nettes",
+     "apport": "Les titres des champs s'affichent en bleu marine, plus foncés et plus épais : on les lit d'un coup d'œil. Le texte est plus contrasté, les contours des champs plus visibles, et les couleurs (vert, terracotta, bleu) un peu plus vives."
+    },
+    {
+     "titre": "Fenêtres bien en avant",
+     "apport": "Quand une fenêtre s'ouvre, le reste de l'écran s'assombrit et devient flou, et la fenêtre apparaît en douceur : on voit tout de suite où regarder. Sur ordinateur, on peut taper directement dans son premier champ."
+    },
     {
      "titre": "Connexion plus simple",
      "apport": "Plus besoin de choisir son profil (Admin, Gestionnaire, Caisse, Comptable) : on tape seulement son identifiant et son mot de passe, et Gérimo ouvre les écrans de son profil. Un message d'accueil rappelle le profil ouvert. Un œil permet d'afficher le mot de passe pendant qu'on le tape. Sous le nom de l'entreprise, la mention suit le métier : « Gestion immobilière », « Gestion de boutique »… ou « Logiciel de gestion » avec la liste des métiers quand il y en a plusieurs."
@@ -359,95 +418,68 @@
      "apport": "Sur ordinateur, c'est la douchette qui scanne : le bouton appareil photo n'y apparaît plus. Sur téléphone et tablette, il reste là pour scanner un code-barres sans douchette."
     }
    ]
-  },
-  {
-   "version": "1.250",
-   "numero": 250,
-   "date": "19/11/2026",
-   "elements": [
-    {
-     "titre": "Titres des modules plus grands",
-     "apport": "Le nom du module en haut de chaque écran (Loyers, Trésorerie, Dépenses…) et le nom de chaque carte de l'accueil sont écrits plus grand : on voit tout de suite où l'on est et où aller. Dans le tableau de bord de l'accueil, le titre de chaque carte est aussi plus grand, de la couleur de son chiffre (vert pour les loyers encaissés, orange pour les impayés, rouge pour les contrats à risque)."
-    },
-    {
-     "titre": "« Journal » de la Trésorerie devient « Entrées et sorties »",
-     "apport": "La rubrique qui montre tout l'argent entré et sorti de la caisse, de la banque et du Mobile Money, avec le solde après chaque opération, s'appelle maintenant « Entrées et sorties » : on ne la confond plus avec l'historique des paiements des locataires, ni avec le journal « qui a fait quoi » des Paramètres."
-    },
-    {
-     "titre": "« Finances » devient « Loyers »",
-     "apport": "L'écran des encaissements, impayés et relances s'appelle maintenant « Loyers », sur l'accueil comme dans le menu : on sait tout de suite ce qu'on y trouve."
-    },
-    {
-     "titre": "Rubriques au clavier",
-     "apport": "Dans un écran avec sa colonne de tuiles à gauche (Patrimoine, Boutique, Argent, Paramètres…), les flèches Haut et Bas du clavier ouvrent la rubrique précédente ou suivante. La flèche Droite emmène directement à la première case à remplir de la rubrique ; la flèche Gauche ramène sur sa tuile (dans une case de texte, quand le curseur est tout au début). Tout se fait sans toucher à la souris."
-    },
-    {
-     "titre": "Accueil et menu selon vos métiers",
-     "apport": "Si votre entreprise n'a qu'un seul métier (l'immobilier par exemple), l'accueil et le menu de gauche montrent de nouveau chaque écran séparément : Propriétaires, Biens, Contrats, Locataires, Loyers, Dépenses… Chaque écran porte alors le nom de son module, avec ses propres rubriques : Dépenses seules dans Dépenses, Trésorerie avec ses soldes, ses entrées et sorties et ses reversements, Résultat et TVA dans les Rapports. Si elle en a plusieurs, ils restent regroupés par espace pour ne pas surcharger l'écran."
-    }
-   ]
   }
  ],
  "nouveautes": [
+  {
+   "date": "27/11/2026",
+   "texte": "Améliorations et corrections — Le logiciel est plus fiable et plus agréable."
+  },
   {
    "date": "26/11/2026",
    "texte": "Améliorations et corrections — Le logiciel est plus fiable et plus agréable."
   },
   {
    "date": "25/11/2026",
+   "texte": "Formulaires plus lisibles — Le champ dans lequel on écrit est entouré d'un contour bien plus épais. Les montants (loyer, caution, avance, prix…) s'écrivent en gras et en terracotta. Dans le contrat : « Loyer payé en » à côté du montant du loyer, caution et avance sur la même ligne, et « Statut du contrat » avec « Date du jour » en dernier."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Relancer tous les retards — Dans Loyers, le bouton « Relancer les retards (n) » prépare d'un coup les messages WhatsApp de tous les locataires en retard : il ne reste qu'à appuyer sur Envoyer pour chacun, l'un après l'autre."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Récapitulatif du matin — À la première ouverture de la journée, une fenêtre résume ce qui vous attend : loyers attendus dans les 5 jours, retards (avec un bouton pour relancer), contrats qui se terminent bientôt, états des lieux à faire. Une ligne touchée mène directement au bon écran."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Recherche par téléphone — Tapez le numéro d'un locataire dans la barre de recherche : sa fiche rapide s'affiche en tête (logement, loyer, ce qu'il doit ou « À jour »), avec les boutons Encaisser, Voir le contrat et WhatsApp."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Photo sur l'élément abîmé — Dans l'état des lieux, chaque élément (robinet, carrelage, porte…) a son propre appareil photo. La photo s'affiche sous la ligne de l'élément, et le PDF l'imprime juste sous la ligne concernée."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Photos d'entrée et de sortie côte à côte — À l'état des lieux de sortie, les photos prises à l'entrée s'affichent à côté de celles de la sortie, à l'écran comme dans le PDF : on voit d'un coup d'œil ce qui s'est abîmé."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Travaux à prévoir après un départ — À la sortie, Gérimo dresse la liste de ce qui s'est abîmé et des clés non rendues. On note un coût estimé pour chaque réparation (total en bas, repris dans le PDF), et le bouton « Dépense » prépare la dépense de réparation déjà remplie."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Erreurs sous le bon champ — Quand une saisie ne va pas, le message s'affiche en rouge juste sous le champ concerné, qui est entouré de rouge ; l'écran va directement dessus. Le rouge disparaît dès qu'on corrige."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Champs obligatoires repérés — Un petit point terracotta après le titre signale les champs à remplir obligatoirement."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Montants faciles à lire — En tapant un montant, les milliers se séparent tout seuls : 1250000 devient 1 250 000."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Couleurs plus nettes — Les titres des champs s'affichent en bleu marine, plus foncés et plus épais : on les lit d'un coup d'œil. Le texte est plus contrasté, les contours des champs plus visibles, et les couleurs (vert, terracotta, bleu) un peu plus vives."
+  },
+  {
+   "date": "25/11/2026",
+   "texte": "Fenêtres bien en avant — Quand une fenêtre s'ouvre, le reste de l'écran s'assombrit et devient flou, et la fenêtre apparaît en douceur : on voit tout de suite où regarder. Sur ordinateur, on peut taper directement dans son premier champ."
+  },
+  {
+   "date": "25/11/2026",
    "texte": "Connexion plus simple — Plus besoin de choisir son profil (Admin, Gestionnaire, Caisse, Comptable) : on tape seulement son identifiant et son mot de passe, et Gérimo ouvre les écrans de son profil. Un message d'accueil rappelle le profil ouvert. Un œil permet d'afficher le mot de passe pendant qu'on le tape. Sous le nom de l'entreprise, la mention suit le métier : « Gestion immobilière », « Gestion de boutique »… ou « Logiciel de gestion » avec la liste des métiers quand il y en a plusieurs."
-  },
-  {
-   "date": "25/11/2026",
-   "texte": "Appareil photo dans Gérimo — Sur Android, le bouton « Prendre une photo » ouvre maintenant l'appareil photo à l'intérieur de Gérimo : l'application ne se ferme plus. On prend plusieurs photos d'affilée (un appui sur une petite photo la retire), puis « Valider » range tout dans la pièce choisie. Une lampe aide dans les pièces sombres. Sur ordinateur aussi, on peut prendre plusieurs photos avant de valider. (Installer la nouvelle application Android.)"
-  },
-  {
-   "date": "25/11/2026",
-   "texte": "Clés, porte par porte — Dans l'état des lieux, chaque porte a sa ligne (intérieur ou extérieur, clé, badge, télécommande ou cadenas) : on note le nombre de clés du trousseau complet et le nombre remis, et Gérimo affiche tout seul « Complet » ou « Incomplet — il manque 1 ». À la sortie, les clés remises à l'entrée sont rappelées, et celles qui ne sont pas rendues sont signalées. Le PDF montre le tableau des clés."
-  },
-  {
-   "date": "25/11/2026",
-   "texte": "Signatures sur l'aperçu de l'état des lieux — Une fois les deux signatures dessinées, le bouton « Aperçu PDF » montre déjà le document avec les signatures. Après « Valider les signatures », c'est la copie signée qui s'ouvre, jamais l'ancien brouillon."
-  },
-  {
-   "date": "25/11/2026",
-   "texte": "État des lieux par WhatsApp — Un bouton WhatsApp, à côté de « Aperçu PDF », envoie l'état des lieux signé au locataire. Avec la nouvelle application Android, le PDF part directement dans sa conversation WhatsApp : il ne reste qu'à appuyer sur Envoyer."
-  },
-  {
-   "date": "25/11/2026",
-   "texte": "Chaque logement garde son vrai plan — Pour le locataire suivant, l'état des lieux d'entrée reprend les pièces, les portes, le nombre de clés et les numéros des compteurs du dernier état des lieux signé de ce logement (pièces renommées ou ajoutées comprises). Il ne reste qu'à noter l'état du jour."
-  },
-  {
-   "date": "25/11/2026",
-   "texte": "Plus de filigrane « BROUILLON » — Le PDF de l'état des lieux n'a plus le grand mot « BROUILLON » en travers. Tant qu'il n'est pas validé, une petite mention discrète en haut à droite l'indique."
-  },
-  {
-   "date": "25/11/2026",
-   "texte": "Noms des chambres — Dans l'état des lieux, les chambres s'appellent « Chambre principale », « Chambre secondaire », puis « Chambre 3 », « Chambre 4 »… : en ajoutant une chambre, le numéro suivant se met tout seul."
-  },
-  {
-   "date": "25/11/2026",
-   "texte": "Remise de la pénalité pour tous ceux qui encaissent — La case « Remettre la pénalité de retard » du formulaire d'encaissement est maintenant proposée aussi à la Caisse et au Gestionnaire, pas seulement à l'Admin. Chaque remise reste notée sur l'encaissement avec le nom de la personne qui l'a accordée."
-  },
-  {
-   "date": "24/11/2026",
-   "texte": "Choisir les mois payés — Dans le formulaire d'encaissement, les mois du locataire s'affichent en cases à cocher (avec leur montant et ceux qui sont en retard) : on coche les mois que le locataire paie, et le nombre de mois, le montant et la période se mettent à jour tout seuls. Les mois se suivent toujours, en commençant par le plus ancien non payé."
-  },
-  {
-   "date": "24/11/2026",
-   "texte": "Encaissements en couleurs — Dans la liste des encaissements, chaque ligne a un cadre de couleur bien visible : jaune pour les locataires qui paient en début de mois, vert pour ceux qui paient en fin de mois (selon leur contrat), rouge pour ceux qui sont en retard aujourd'hui. Une petite légende rappelle les couleurs."
-  },
-  {
-   "date": "24/11/2026",
-   "texte": "Point de départ des loyers — Dans Paramètres → Reprise de données, l'Admin choisit le mois à partir duquel Gérimo compte les loyers : les anciennes données restent dans les anciens fichiers. Avant ce mois, plus aucun loyer dû, aucun impayé ni encaissement de loyer, et les cautions et avances des anciens locataires sont considérées comme versées. On peut aussi effacer les dépenses jusqu'à une date. Un aperçu montre tout ce qui sera effacé, une sauvegarde est faite juste avant et le mot de passe Admin est demandé."
-  },
-  {
-   "date": "24/11/2026",
-   "texte": "Démarrage plus sûr — Si Gérimo Pro Serveur est lancé deux fois au même moment (par exemple au démarrage de Windows et par un double-clic), il n'affiche plus le message d'erreur « La base de données n'a pas pu être préparée » : le deuxième lancement attend simplement le premier."
-  },
-  {
-   "date": "24/11/2026",
-   "texte": "Connexion : un message clair si la page est mal chargée — Si la page de connexion ne s'est pas chargée correctement dans le navigateur, Gérimo l'explique en rouge (avec la raison et quoi faire) au lieu de simplement vider les cases. De même, si le mot de passe est bon mais que le navigateur refuse de garder la connexion (cookies bloqués), Gérimo le dit et indique le réglage à changer."
   }
  ],
  "modules": [
@@ -543,5 +575,5 @@
   "winreg",
   "zipfile"
  ],
- "fichier": "paquets/Gerimo-1.317.zip"
+ "fichier": "paquets/Gerimo-1.325.zip"
 }
